@@ -1,0 +1,1762 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#F5C6D6">
+<title>The Wedding of Riani &amp; Rafly — 22 Agustus 2027</title>
+<meta name="description" content="Undangan pernikahan digital Siti Riani &amp; Muhamad Rafly Kristiadi — Minggu, 22 Agustus 2027.">
+<meta property="og:title" content="The Wedding of Riani &amp; Rafly">
+<meta property="og:description" content="Kami mengundang Anda untuk hadir di hari bahagia kami — Minggu, 22 Agustus 2027.">
+<meta property="og:image" content="https://lh3.googleusercontent.com/d/1RpNuK2g_e1yZUYYE1N-XZhkSEe0yr67i">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600&family=Lora:ital,wght@0,400;0,500;1,400&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+<style>
+/* =====================================================================
+   DREAMY PASTEL PALACE — Wedding Invitation Riani & Rafly
+   ===================================================================== */
+:root{
+  --blue-1:#D6EAF8; --blue-2:#B8D8F8; --pink-1:#FADADD; --pink-2:#F5C6D6;
+  --twilight:#3A5A78; --sky:#8BB8E8; --sky-pink:#F4B8C8;
+  --glow-pink:#FFE4EC; --pearl:#FFF5F8; --moon:#FFD6E4;
+  --card-pink:#FFF0F5; --card-blue:#EAF4FC;
+  --rose-gold:#C98A9E; --dusty-blue:#5D8AA8; --arch-blue:#6C9BCF;
+  --flower-pink:#F4A4B8; --dusty-rose:#D47A92; --flower-blue:#A2CFFE; --ivory:#FFFDF9;
+  --euc:#8FAEC4; --navy:#243B53; --white:#fff;
+  --serif:'Cormorant Garamond',Georgia,serif;
+  --body:'Lora',Georgia,serif;
+  --sans:'Montserrat',system-ui,sans-serif;
+  --col:480px;
+}
+*{box-sizing:border-box;margin:0;padding:0;-webkit-tap-highlight-color:transparent}
+html{scroll-behavior:smooth}
+body{
+  font-family:var(--body);color:var(--navy);line-height:1.75;
+  background:
+    radial-gradient(900px 600px at 15% 10%,rgba(245,198,214,.85),transparent 60%),
+    radial-gradient(900px 700px at 90% 90%,rgba(184,216,248,.9),transparent 60%),
+    linear-gradient(160deg,#D6EAF8,#FADADD);
+  background-attachment:fixed;
+  min-height:100vh;overflow-x:hidden;
+}
+body.locked{overflow:hidden;height:100vh}
+img{display:block;max-width:100%}
+a{color:inherit}
+button{font-family:inherit;cursor:pointer;border:0;background:none}
+.app{position:relative;width:100%;max-width:var(--col);margin:0 auto;background:var(--pearl);
+  box-shadow:0 0 0 1px rgba(201,138,158,.25),0 30px 80px rgba(58,90,120,.35);overflow-x:clip;min-height:100vh}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
+
+/* ---------- generic photo handling ---------- */
+.photo{width:100%;height:100%;object-fit:cover;object-position:center top;background:linear-gradient(160deg,var(--blue-1),var(--pink-1))}
+.photo.broken{opacity:0}
+.pic{position:relative}.pic > .photo{position:absolute;inset:0}
+
+/* ---------- reveal on scroll ---------- */
+.reveal{opacity:0;transform:translateY(34px);transition:opacity 1s ease,transform 1.1s cubic-bezier(.2,.7,.2,1)}
+.reveal.left{transform:translateX(-40px)} .reveal.right{transform:translateX(40px)}
+.reveal.zoom{transform:scale(.92)}
+.reveal.in{opacity:1;transform:none}
+.d1{transition-delay:.12s}.d2{transition-delay:.24s}.d3{transition-delay:.36s}.d4{transition-delay:.48s}
+
+/* =====================================================================
+   A. COVER
+   ===================================================================== */
+.cover{
+  position:fixed;z-index:200;top:0;left:50%;width:min(100%,var(--col));height:100vh;height:100dvh;
+  transform:translateX(-50%);overflow:hidden;color:var(--navy);
+  transition:transform 1.4s cubic-bezier(.77,0,.18,1);
+  background:#E6EEFA;
+  display:flex;flex-direction:column;align-items:center;text-align:center;
+  padding:max(4.5vh,34px) 22px max(3vh,22px);
+}
+.cover.open{transform:translate(-50%,-104%)}
+.cover-bg{position:absolute;inset:0;z-index:0;
+  background:
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='64' height='64' viewBox='0 0 64 64'%3E%3Cpath d='M32 6l6 13 13-6-6 13 13 6-13 6 6 13-13-6-6 13-6-13-13 6 6-13-13-6 13-6-6-13 13 6z' fill='none' stroke='%23C98A9E' stroke-opacity='.22' stroke-width='1'/%3E%3Ccircle cx='32' cy='32' r='3' fill='none' stroke='%236C9BCF' stroke-opacity='.25'/%3E%3C/svg%3E"),
+    radial-gradient(80% 45% at 50% 40%,rgba(255,245,248,.95),transparent 70%),
+    radial-gradient(70% 40% at 0% 100%,rgba(245,198,214,.9),transparent 70%),
+    radial-gradient(70% 40% at 100% 100%,rgba(184,216,248,.9),transparent 70%),
+    linear-gradient(180deg,#B8D8F8 0%,#DCEAFB 28%,#FBE6EC 62%,#F5C6D6 100%);
+}
+.deco-top,.deco-bottom{position:absolute;left:0;width:100%;z-index:1;pointer-events:none;overflow:visible;display:block}
+.deco-top{top:0;aspect-ratio:480/240}
+.deco-bottom{bottom:0;aspect-ratio:480/220}
+.cover > .cover-top,.cover > .cover-bottom,.cover > .cover-art{position:relative;z-index:3}
+.cover-top{display:flex;flex-direction:column;align-items:center;gap:4px;text-shadow:0 1px 10px rgba(255,255,255,.9);margin-top:clamp(6px,2vh,22px)}
+.cover-small{font-family:var(--sans);font-size:12px;letter-spacing:.5em;text-transform:uppercase;font-weight:500;padding-left:.5em;color:var(--dusty-blue)}
+.cover-names{font-family:var(--serif);font-style:italic;font-weight:600;font-size:clamp(42px,13vw,62px);line-height:1.05;margin:4px 0 8px;color:var(--navy);
+  background:linear-gradient(120deg,#243B53 20%,#B25D77 55%,#243B53 85%);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;text-shadow:none;filter:drop-shadow(0 2px 6px rgba(255,255,255,.8))}
+.cover-date{display:flex;align-items:center;gap:14px;font-family:var(--sans);font-size:12.5px;letter-spacing:.14em;font-weight:500;color:var(--navy)}
+.cover-date::before,.cover-date::after{content:"";width:34px;height:1px;background:var(--rose-gold)}
+
+/* ilustrasi kartun */
+.cover-art{flex:1 1 0;min-height:0;width:100%;margin:2px 0 4px}
+.cover-art svg{width:100%;height:100%;display:block;overflow:visible;animation:artIn 1.5s .1s both cubic-bezier(.2,.8,.2,1)}
+@keyframes artIn{from{opacity:0;transform:translateY(26px) scale(.95)}to{opacity:1;transform:none}}
+.couple-g{animation:coupleBob 3.6s ease-in-out infinite;transform-box:fill-box;transform-origin:50% 100%}
+@keyframes coupleBob{50%{transform:translateY(-3px)}}
+.tilt{animation:tilt 4.2s ease-in-out infinite alternate;transform-box:fill-box;transform-origin:50% 100%}
+@keyframes tilt{from{transform:rotate(-2.2deg)}to{transform:rotate(2.2deg)}}
+.eyes{animation:blink 5s infinite;transform-box:fill-box;transform-origin:50% 50%}
+@keyframes blink{0%,93%,100%{transform:scaleY(1)}96%{transform:scaleY(.1)}}
+.lantern{animation:swing 4.6s ease-in-out infinite alternate;transform-box:fill-box;transform-origin:50% 0}
+.lantern.l2{animation-duration:5.4s;animation-direction:alternate-reverse}
+@keyframes swing{from{transform:rotate(-5deg)}to{transform:rotate(5deg)}}
+.fh{opacity:0;animation:floatHeart 4.6s ease-in-out infinite}
+@keyframes floatHeart{0%{transform:translateY(24px);opacity:0}25%{opacity:1}100%{transform:translateY(-46px);opacity:0}}
+.sp{animation:twinkle 2.8s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
+
+/* kartu tamu */
+.cover-bottom{width:100%;display:flex;flex-direction:column;align-items:center;gap:2px;padding:20px 20px 22px;border-radius:64px 64px 28px 28px;position:relative;
+  background:linear-gradient(180deg,rgba(255,245,248,.84),rgba(234,244,252,.82));
+  -webkit-backdrop-filter:blur(12px);backdrop-filter:blur(12px);
+  border:1.5px solid var(--rose-gold);box-shadow:0 0 0 5px rgba(255,255,255,.6),0 0 0 6px rgba(108,155,207,.45),0 16px 38px rgba(93,138,168,.35)}
+.cover-bottom::before{content:"";position:absolute;inset:7px;border-radius:58px 58px 22px 22px;border:1px dashed rgba(93,138,168,.5);pointer-events:none}
+.cover-to{font-family:var(--sans);font-size:12px;letter-spacing:.12em;font-weight:400;color:#46607a}
+.cover-guest{font-family:var(--serif);font-weight:700;font-size:clamp(26px,8vw,34px);line-height:1.2;margin:6px 0 16px;word-break:break-word;max-width:100%;color:var(--navy)}
+.open-btn{
+  display:inline-flex;align-items:center;gap:12px;padding:14px 32px;border-radius:999px;color:var(--navy);
+  font-family:var(--sans);font-size:13px;font-weight:600;letter-spacing:.12em;text-transform:uppercase;
+  background:linear-gradient(135deg,rgba(250,218,221,.92),rgba(162,207,254,.9));
+  border:1.5px solid rgba(255,255,255,.95);
+  -webkit-backdrop-filter:blur(14px) saturate(1.3);backdrop-filter:blur(14px) saturate(1.3);
+  box-shadow:0 8px 24px rgba(93,138,168,.4),inset 0 0 16px rgba(255,255,255,.5);
+  transition:transform .3s,box-shadow .3s,background .3s;position:relative;overflow:hidden;text-shadow:none;
+}
+.open-btn::after{content:"";position:absolute;top:0;left:-60%;width:40%;height:100%;
+  background:linear-gradient(100deg,transparent,rgba(255,255,255,.75),transparent);transform:skewX(-20deg);animation:shine 3.2s ease-in-out infinite}
+@keyframes shine{0%,60%{left:-60%}100%{left:130%}}
+.open-btn:hover{transform:translateY(-2px);box-shadow:0 12px 30px rgba(93,138,168,.5)}
+.open-btn:active{transform:scale(.97)}
+.open-btn svg{width:22px;height:22px;flex:none;animation:bob 2.4s ease-in-out infinite}
+@keyframes bob{50%{transform:translateY(-3px) rotate(-6deg)}}
+.cover-fx{position:absolute;inset:0;z-index:2;pointer-events:none;overflow:hidden}
+
+/* =====================================================================
+   floating petals (global) + music button + toast
+   ===================================================================== */
+.petal{position:absolute;top:-30px;width:12px;height:14px;border-radius:70% 0 70% 70%;
+  background:linear-gradient(135deg,#FFE4EC,#F4A4B8);opacity:.0;animation:fall linear infinite;box-shadow:0 0 6px rgba(255,228,236,.8)}
+.petal.b{background:linear-gradient(135deg,#EAF4FC,#A2CFFE)}
+@keyframes fall{
+  0%{transform:translate3d(0,-5vh,0) rotate(0);opacity:0}
+  10%{opacity:.85}
+  50%{transform:translate3d(40px,55vh,0) rotate(200deg)}
+  90%{opacity:.7}
+  100%{transform:translate3d(-30px,108vh,0) rotate(420deg);opacity:0}}
+.petals{position:fixed;z-index:30;top:0;left:50%;transform:translateX(-50%);width:min(100%,var(--col));height:100vh;pointer-events:none;overflow:hidden}
+
+.music-btn{
+  position:fixed;z-index:150;bottom:20px;right:max(16px,calc(50% - var(--col)/2 + 16px));
+  width:52px;height:52px;border-radius:50%;background:#fff;padding:3px;
+  background:linear-gradient(135deg,var(--flower-pink),var(--flower-blue));
+  box-shadow:0 6px 22px rgba(58,90,120,.4),0 0 0 4px rgba(255,255,255,.55);
+  transform:scale(0);opacity:0;transition:transform .7s cubic-bezier(.3,1.5,.5,1) .6s,opacity .6s .6s;
+}
+.music-btn.show{transform:scale(1);opacity:1}
+.music-btn:hover{filter:brightness(1.05)}
+.music-btn .disc{width:100%;height:100%;border-radius:50%;animation:spin 6s linear infinite;display:block}
+.music-btn.paused .disc{animation-play-state:paused}
+@keyframes spin{to{transform:rotate(360deg)}}
+.music-btn::after{content:"";position:absolute;inset:-6px;border-radius:50%;border:2px solid rgba(255,255,255,.7);animation:ping 2.4s ease-out infinite}
+.music-btn.paused::after{animation:none;opacity:0}
+@keyframes ping{0%{transform:scale(.9);opacity:.9}100%{transform:scale(1.5);opacity:0}}
+
+.toast{position:fixed;z-index:400;left:50%;bottom:92px;transform:translate(-50%,30px);opacity:0;pointer-events:none;
+  max-width:min(88vw,400px);text-align:center;padding:12px 22px;border-radius:999px;
+  background:linear-gradient(135deg,rgba(36,59,83,.92),rgba(58,90,120,.92));color:#fff;
+  font-family:var(--sans);font-size:12.5px;letter-spacing:.03em;box-shadow:0 10px 30px rgba(36,59,83,.4);
+  border:1px solid rgba(255,255,255,.35);transition:.45s cubic-bezier(.2,.9,.3,1.2)}
+.toast.show{opacity:1;transform:translate(-50%,0)}
+
+/* =====================================================================
+   B. HERO — cinematic layered scene
+   ===================================================================== */
+.hero{
+  position:relative;min-height:100vh;min-height:100dvh;overflow:hidden;isolation:isolate;
+  padding:210px 0 170px;display:flex;flex-direction:column;align-items:center;
+  background:linear-gradient(180deg,#3A5A78 0%,#4F76A0 20%,#8BB8E8 48%,#C9B8DA 70%,#F4B8C8 100%);
+}
+.hero > *{position:absolute}
+.stars{inset:0 0 40% 0;z-index:0;opacity:0}
+.star{position:absolute;width:3px;height:3px;border-radius:50%;background:#fff;box-shadow:0 0 6px 1px rgba(255,228,236,.9);animation:twinkle 3s ease-in-out infinite}
+@keyframes twinkle{0%,100%{opacity:.25;transform:scale(.7)}50%{opacity:1;transform:scale(1.2)}}
+.hero.play .stars{animation:fadeIn 2.4s .1s forwards}
+@keyframes fadeIn{to{opacity:1}}
+
+/* Layer 1 — moon + clouds */
+.moon-wrap{z-index:2;top:0;left:50%;width:230px;height:230px;margin-left:-115px;opacity:0;transform:translateY(60px) scale(.8)}
+.moon-wrap svg{width:100%;height:100%;overflow:visible;animation:moonPulse 5s ease-in-out infinite}
+@keyframes moonPulse{50%{filter:drop-shadow(0 0 22px rgba(255,214,228,.95))}}
+.moon-wrap svg{filter:drop-shadow(0 0 12px rgba(255,214,228,.7))}
+.hero.play .moon-wrap{animation:moonRise 2.4s .15s cubic-bezier(.2,.7,.2,1) forwards}
+@keyframes moonRise{to{opacity:1;transform:none}}
+.cloud{width:62%;height:auto;left:-70%;opacity:0}
+.cloud svg{width:100%;display:block}
+.cloud.c1{top:70px;z-index:1}.cloud.c2{top:150px;z-index:1;width:52%}
+.cloud.c3{top:92px;z-index:3;width:70%}.cloud.c4{top:215px;z-index:3;width:46%}
+.hero.play .cloud{animation:drift 70s linear infinite,fadeCloud 3s .6s forwards}
+.hero.play .cloud.c1{animation-duration:90s;animation-delay:-20s,.6s}
+.hero.play .cloud.c2{animation-duration:120s;animation-delay:-70s,.9s}
+.hero.play .cloud.c3{animation-duration:75s;animation-delay:-8s,.8s}
+.hero.play .cloud.c4{animation-duration:105s;animation-delay:-52s,1s}
+@keyframes drift{from{transform:translateX(0)}to{transform:translateX(calc(var(--col) * 2.2))}}
+@media(max-width:480px){@keyframes drift{from{transform:translateX(0)}to{transform:translateX(300vw)}}}
+@keyframes fadeCloud{to{opacity:.88}}
+.cloud.c1,.cloud.c2{--op:.6}
+
+/* Layer 3 side frames: eucalyptus */
+.euc{top:0;height:100%;width:44%;z-index:5;pointer-events:none;opacity:0;transform-origin:0 0}
+.euc.l{left:0}.euc.r{right:0;transform:scaleX(-1);transform-origin:100% 0}
+.euc svg{width:100%;height:100%;display:block}
+.hero.play .euc.l{animation:eucIn 2s 1.7s ease forwards,sway 7s 3.7s ease-in-out infinite alternate}
+.hero.play .euc.r{animation:eucInR 2s 1.9s ease forwards,swayR 8s 3.9s ease-in-out infinite alternate}
+@keyframes eucIn{from{opacity:0;transform:translate(-40px,-30px) rotate(-4deg)}to{opacity:1;transform:none}}
+@keyframes eucInR{from{opacity:0;transform:scaleX(-1) translate(-40px,-30px) rotate(-4deg)}to{opacity:1;transform:scaleX(-1)}}
+@keyframes sway{from{transform:rotate(-1.2deg)}to{transform:rotate(1.4deg)}}
+@keyframes swayR{from{transform:scaleX(-1) rotate(-1.4deg)}to{transform:scaleX(-1) rotate(1.2deg)}}
+
+/* Scene layers (trees / palace / bouquet) share one aspect box, anchored to the bottom */
+.scene{left:0;bottom:0;width:100%;aspect-ratio:480/700;pointer-events:none}
+.scene svg{position:absolute;inset:0;width:100%;height:100%;overflow:visible}
+.scene.trees{z-index:3;opacity:0}
+.scene.palace{z-index:4;opacity:0;transform:translateY(90px)}
+.scene.flowers{z-index:7;opacity:0;transform:translateY(60px)}
+.hero.play .scene.trees{animation:fadeIn 2.4s 1.2s forwards}
+.hero.play .scene.palace{animation:palaceUp 2.6s .8s cubic-bezier(.2,.7,.2,1) forwards}
+.hero.play .scene.flowers{animation:palaceUp 2s 1.8s cubic-bezier(.2,.7,.2,1) forwards}
+@keyframes palaceUp{to{opacity:1;transform:none}}
+.glint{animation:glint 4s ease-in-out infinite}
+@keyframes glint{50%{opacity:.55}}
+
+/* mist around towers */
+.mist{left:-20%;width:140%;z-index:6;pointer-events:none;opacity:0;filter:blur(10px)}
+.mist.m1{bottom:8%;height:150px;background:radial-gradient(ellipse at 50% 60%,rgba(255,245,248,.85),rgba(255,228,236,.35) 45%,transparent 70%)}
+.mist.m2{bottom:2%;height:120px;background:radial-gradient(ellipse at 50% 60%,rgba(214,234,248,.9),rgba(184,216,248,.4) 45%,transparent 70%)}
+.mist.m3{bottom:17%;height:110px;background:radial-gradient(ellipse at 40% 50%,rgba(255,245,248,.55),transparent 65%)}
+.hero.play .mist{animation:mistIn 3s 1.4s forwards,mistMove 14s 1.4s ease-in-out infinite alternate}
+.hero.play .mist.m2{animation-duration:3s,18s;animation-direction:normal,alternate-reverse}
+.hero.play .mist.m3{animation-duration:3s,22s}
+@keyframes mistIn{to{opacity:.9}}
+@keyframes mistMove{from{transform:translateX(-7%)}to{transform:translateX(7%)}}
+
+/* Layer 4 — Mughal arch frame */
+.arch-frame{position:relative;z-index:8;width:min(74%,350px);aspect-ratio:300/480;container-type:inline-size;
+  opacity:0;transform:scale(.86) translateY(30px);transform-origin:50% 100%}
+.hero.play .arch-frame{animation:archIn 1.6s 2.9s cubic-bezier(.2,.8,.2,1) forwards}
+@keyframes archIn{to{opacity:1;transform:none}}
+.arch-svg{position:absolute;inset:0;width:100%;height:100%;overflow:visible;filter:drop-shadow(0 14px 30px rgba(36,59,83,.35))}
+.arch-content{position:absolute;left:11%;right:11%;top:29%;bottom:7%;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;color:var(--navy)}
+.arch-content > *{opacity:0;transform:translateY(14px)}
+.hero.play .arch-content > *{animation:rise .9s cubic-bezier(.2,.8,.2,1) forwards}
+.hero.play .arch-content > *:nth-child(1){animation-delay:3.9s}
+.hero.play .arch-content > *:nth-child(2){animation-delay:4.1s}
+.hero.play .arch-content > *:nth-child(3){animation-delay:4.25s}
+.hero.play .arch-content > *:nth-child(4){animation-delay:4.4s}
+.hero.play .arch-content > *:nth-child(5){animation-delay:4.6s}
+.hero.play .arch-content > *:nth-child(6){animation-delay:4.75s}
+.hero.play .arch-content > *:nth-child(7){animation-delay:4.95s}
+@keyframes rise{to{opacity:1;transform:none}}
+.h-small{font-family:var(--sans);font-size:10px;font-size:clamp(8px,3.4cqw,12px);letter-spacing:.38em;text-transform:uppercase;font-weight:500;padding-left:.38em;color:var(--dusty-blue)}
+.h-name{font-family:var(--serif);font-weight:700;font-size:34px;font-size:clamp(26px,13.4cqw,48px);letter-spacing:.2em;padding-left:.2em;line-height:1.05;text-transform:uppercase;color:var(--navy)}
+.h-amp{font-family:var(--serif);font-style:italic;font-weight:500;font-size:34px;font-size:clamp(26px,12cqw,44px);line-height:1;color:var(--dusty-rose);margin:2px 0}
+.h-date{font-family:var(--sans);font-weight:500;font-size:13px;font-size:clamp(11px,4.6cqw,16px);letter-spacing:.2em;margin-top:12px;padding-left:.2em;color:var(--navy)}
+.h-tag{font-family:var(--body);font-style:italic;font-size:12px;font-size:clamp(10px,3.9cqw,14px);color:var(--rose-gold);margin-top:4px;letter-spacing:.04em}
+.scroll-ico{margin-top:14px;display:flex;flex-direction:column;align-items:center;gap:5px}
+.mouse{width:24px;height:38px;border:2px solid var(--navy);border-radius:14px;position:relative;opacity:.85}
+.mouse::after{content:"";position:absolute;left:50%;top:6px;width:3px;height:8px;margin-left:-1.5px;border-radius:3px;background:var(--dusty-rose);animation:wheel 1.8s ease-in-out infinite}
+@keyframes wheel{0%{transform:translateY(0);opacity:1}70%{transform:translateY(13px);opacity:0}100%{opacity:0}}
+.scroll-ico small{font-family:var(--sans);font-size:8.5px;letter-spacing:.3em;text-transform:uppercase;color:var(--dusty-blue)}
+
+/* =====================================================================
+   divider garland
+   ===================================================================== */
+.divider{position:relative;z-index:9;height:110px;margin:-62px 0 -48px;pointer-events:none}
+.divider svg{width:100%;height:100%;display:block;overflow:visible}
+
+/* =====================================================================
+   shared section styles
+   ===================================================================== */
+section{position:relative}
+.sec{padding:84px 26px;text-align:center}
+.eyebrow{font-family:var(--sans);font-size:11px;letter-spacing:.42em;text-transform:uppercase;color:var(--dusty-blue);padding-left:.42em;font-weight:500}
+.title{font-family:var(--serif);font-weight:600;font-size:clamp(34px,10.5vw,46px);letter-spacing:.14em;text-transform:uppercase;line-height:1.15;color:var(--navy);margin:8px 0 6px;padding-left:.14em}
+.title.script{font-style:italic;text-transform:none;letter-spacing:.02em;font-weight:500}
+.ornament{display:flex;align-items:center;justify-content:center;gap:12px;margin:14px auto 26px;width:70%}
+.ornament::before,.ornament::after{content:"";flex:1;height:1px;background:linear-gradient(90deg,transparent,var(--rose-gold),transparent)}
+.ornament svg{width:26px;height:26px}
+.lead{font-size:14.5px;color:#3d5570;max-width:370px;margin:0 auto}
+
+/* =====================================================================
+   C. SECTION 2 — Arch photo + ayat
+   ===================================================================== */
+#quote{background:linear-gradient(180deg,#EAF4FC 0%,#F3EFF8 50%,#FDEEF4 100%);padding-top:96px}
+.arch-photo-wrap{position:relative;width:min(78%,330px);margin:8px auto 0}
+.arch-border{border-radius:50% 50% 0 0;padding:7px;background:linear-gradient(160deg,var(--rose-gold),#F5C6D6 40%,var(--flower-blue) 70%,var(--dusty-blue));
+  box-shadow:0 18px 44px rgba(93,138,168,.35),0 0 0 6px rgba(255,255,255,.7)}
+.arch-border .inner{border-radius:50% 50% 0 0;padding:5px;background:var(--pearl)}
+.arch-border .pic{border-radius:50% 50% 0 0;overflow:hidden;aspect-ratio:4/5;background:linear-gradient(160deg,var(--blue-1),var(--pink-1))}
+.arch-flower{position:absolute;width:62px;height:62px;z-index:2;filter:drop-shadow(0 3px 5px rgba(36,59,83,.25))}
+.arch-flower.a{left:-22px;bottom:-14px}.arch-flower.b{right:-24px;bottom:-12px;width:54px;height:54px}
+.arch-flower.c{left:-8px;bottom:36px;width:38px;height:38px}.arch-flower.d{right:-6px;bottom:44px;width:36px;height:36px}
+.quote-block{margin-top:46px}
+.ayat{font-family:var(--body);font-style:italic;font-size:15.5px;line-height:1.95;color:#2f4863;max-width:390px;margin:18px auto 14px}
+.ayat-src{font-family:var(--sans);font-size:12px;letter-spacing:.2em;font-weight:600;color:var(--dusty-rose);text-transform:uppercase}
+
+/* =====================================================================
+   D. SECTION 3 — profil mempelai
+   ===================================================================== */
+#couple{background:linear-gradient(180deg,#FDEEF4,#EAF4FC 55%,#FDEEF4)}
+.profile{position:relative;margin:34px auto 0;width:min(100%,360px);padding:34px 22px 34px;
+  border-radius:200px 200px 30px 30px;border:2px solid var(--rose-gold);
+  box-shadow:0 0 0 6px rgba(255,255,255,.7),0 0 0 7px rgba(108,155,207,.55),0 22px 50px rgba(93,138,168,.28);
+  background:linear-gradient(180deg,var(--card-pink),var(--card-blue))}
+.profile.groom{background:linear-gradient(180deg,var(--card-blue),var(--card-pink))}
+.profile::before{content:"";position:absolute;inset:9px;border-radius:190px 190px 22px 22px;border:1px dashed rgba(93,138,168,.55);pointer-events:none}
+.profile .pf-photo{width:68%;margin:0 auto;position:relative}
+.profile .pf-photo .arch-border{box-shadow:0 12px 30px rgba(93,138,168,.3)}
+.profile .pf-photo .arch-border .pic{aspect-ratio:4/5}
+.role{font-family:var(--sans);font-size:10.5px;letter-spacing:.4em;text-transform:uppercase;color:var(--dusty-blue);margin-top:24px;padding-left:.4em;font-weight:500}
+.pname{font-family:var(--serif);font-weight:700;font-size:27px;letter-spacing:.08em;text-transform:uppercase;line-height:1.2;margin:6px 0 10px;color:var(--navy)}
+.pdesc{font-size:13.5px;color:#46607a;line-height:1.7}
+.pdesc b{font-weight:500;color:var(--dusty-rose)}
+.amp-between{font-family:var(--serif);font-style:italic;font-size:64px;color:var(--dusty-rose);line-height:1;margin:22px 0 -6px;text-shadow:0 4px 16px rgba(212,122,146,.35)}
+
+/* =====================================================================
+   E. SECTION 4 — countdown + event
+   ===================================================================== */
+#event{background:linear-gradient(180deg,#EAF4FC 0%,#F6EDF6 45%,#FDEEF4 100%);overflow:hidden}
+.countdown{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin:26px auto 12px;max-width:380px}
+.cd{border-radius:60px 60px 14px 14px;padding:16px 4px 12px;border:1.5px solid var(--rose-gold);position:relative;
+  box-shadow:0 8px 20px rgba(93,138,168,.25),inset 0 0 0 3px rgba(255,255,255,.55)}
+.cd:nth-child(odd){background:linear-gradient(180deg,#FFF0F5,#F8CFDB)}
+.cd:nth-child(even){background:linear-gradient(180deg,#EAF4FC,#BCD9F5);border-color:var(--arch-blue)}
+.cd b{display:block;font-family:var(--serif);font-weight:700;font-size:31px;line-height:1;color:var(--navy);font-variant-numeric:tabular-nums}
+.cd span{display:block;font-family:var(--sans);font-size:9px;letter-spacing:.18em;text-transform:uppercase;margin-top:6px;color:var(--dusty-blue);font-weight:500}
+.cd b.tick{animation:tick .5s ease}
+@keyframes tick{0%{transform:translateY(-6px);opacity:.3}100%{transform:none;opacity:1}}
+.cd-note{font-style:italic;font-size:13px;color:#46607a;margin-bottom:6px}
+.events{display:flex;flex-direction:column;gap:30px;margin-top:38px}
+.ecard{position:relative;margin:0 auto;width:min(100%,350px);padding:78px 24px 32px;border-radius:190px 190px 28px 28px;
+  border:2px solid var(--rose-gold);background:linear-gradient(180deg,var(--card-pink),#fff 55%,var(--card-blue));
+  box-shadow:0 0 0 6px rgba(255,255,255,.75),0 0 0 7px rgba(108,155,207,.5),0 20px 46px rgba(93,138,168,.28)}
+.ecard:nth-child(2){background:linear-gradient(180deg,var(--card-blue),#fff 55%,var(--card-pink))}
+.ecard .orn{position:absolute;top:18px;left:50%;width:84px;height:48px;margin-left:-42px}
+.ecard h3{font-family:var(--serif);font-weight:700;font-size:30px;letter-spacing:.14em;text-transform:uppercase;padding-left:.14em;margin-bottom:14px}
+.erow{display:flex;gap:12px;align-items:flex-start;text-align:left;padding:10px 4px;border-top:1px dashed rgba(201,138,158,.55)}
+.erow:first-of-type{border-top:0}
+.erow svg{flex:none;width:22px;height:22px;margin-top:3px;stroke:var(--dusty-rose);fill:none;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round}
+.erow small{display:block;font-family:var(--sans);font-size:9.5px;letter-spacing:.24em;text-transform:uppercase;color:var(--dusty-blue);font-weight:500}
+.erow p{font-size:14px;line-height:1.55;color:var(--navy)}
+.erow p strong{font-weight:500}
+.map-btn{display:inline-flex;align-items:center;gap:10px;margin-top:38px;padding:16px 32px;border-radius:999px;text-decoration:none;color:var(--navy);
+  font-family:var(--sans);font-weight:600;font-size:12.5px;letter-spacing:.12em;text-transform:uppercase;
+  background:linear-gradient(120deg,#A2CFFE,#F5C6D6 55%,#D47A92);border:1.5px solid rgba(255,255,255,.9);
+  box-shadow:0 10px 28px rgba(93,138,168,.4);transition:transform .3s,box-shadow .3s}
+.map-btn:hover{transform:translateY(-3px);box-shadow:0 16px 34px rgba(93,138,168,.5)}
+.map-btn svg{width:20px;height:20px;fill:none;stroke:var(--navy);stroke-width:1.8}
+
+/* =====================================================================
+   F. SECTION 5 — gallery
+   ===================================================================== */
+#gallery{background:linear-gradient(180deg,#FDEEF4,#F1F0F9 50%,#EAF4FC)}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:22px 16px;margin-top:30px}
+.g-item{position:relative;cursor:zoom-in;padding:0;display:block;width:100%}
+.g-item:nth-child(even){margin-top:30px;margin-bottom:-30px}
+.g-item .arch-border{padding:4px;transition:transform .5s cubic-bezier(.2,.8,.2,1),box-shadow .5s;box-shadow:0 12px 26px rgba(93,138,168,.3),0 0 0 3px rgba(255,255,255,.75)}
+.g-item .arch-border .inner{padding:3px}
+.g-item .arch-border .pic{aspect-ratio:3/4}
+.g-item .photo{transition:transform 1s ease}
+.g-item:hover .arch-border{transform:translateY(-5px);box-shadow:0 18px 34px rgba(93,138,168,.42),0 0 0 3px #fff}
+.g-item:hover .photo{transform:scale(1.07)}
+.g-item .arch-flower{width:40px;height:40px}
+.g-item .arch-flower.a{left:-12px;bottom:-9px}.g-item .arch-flower.b{right:-12px;bottom:-9px;width:34px;height:34px}
+.g-item .arch-flower.c,.g-item .arch-flower.d{display:none}
+.g-hint{margin-top:62px;font-family:var(--sans);font-size:10.5px;letter-spacing:.24em;text-transform:uppercase;color:var(--dusty-blue)}
+
+.lightbox{position:fixed;inset:0;z-index:500;display:flex;align-items:center;justify-content:center;
+  background:rgba(25,40,60,.88);-webkit-backdrop-filter:blur(8px);backdrop-filter:blur(8px);opacity:0;visibility:hidden;transition:.4s}
+.lightbox.open{opacity:1;visibility:visible}
+.lightbox img{max-width:min(94vw,520px);max-height:84vh;border-radius:200px 200px 14px 14px;border:5px solid #fff;box-shadow:0 0 0 2px var(--rose-gold),0 24px 70px rgba(0,0,0,.55);
+  object-fit:contain;background:#fff;transform:scale(.88);transition:transform .45s cubic-bezier(.2,.9,.3,1.2)}
+.lightbox.open img{transform:scale(1)}
+.lb-btn{position:absolute;width:46px;height:46px;border-radius:50%;background:rgba(255,255,255,.92);color:var(--navy);font-size:22px;display:flex;align-items:center;justify-content:center;box-shadow:0 6px 18px rgba(0,0,0,.3);transition:.25s}
+.lb-btn:hover{background:#fff;transform:scale(1.08)}
+.lb-close{top:18px;right:18px}.lb-prev{left:12px;top:50%;margin-top:-23px}.lb-next{right:12px;top:50%;margin-top:-23px}
+.lb-count{position:absolute;bottom:22px;left:0;right:0;text-align:center;color:#fff;font-family:var(--sans);font-size:12px;letter-spacing:.3em}
+
+/* =====================================================================
+   G. SECTION 6 — gift
+   ===================================================================== */
+#gift{background:linear-gradient(180deg,#EAF4FC,#F7EAF2 60%,#FDEEF4)}
+.cards{display:flex;flex-direction:column;gap:34px;margin-top:34px;align-items:center}
+.atm-wrap{width:100%;max-width:340px}
+.atm{position:relative;aspect-ratio:1.586;border-radius:22px;padding:20px 22px;text-align:left;color:var(--navy);overflow:hidden;
+  border:1px solid rgba(255,255,255,.9);box-shadow:0 18px 40px rgba(93,138,168,.38),inset 0 0 0 1px rgba(201,138,158,.35);
+  display:flex;flex-direction:column;justify-content:space-between;transition:transform .5s}
+.atm:hover{transform:perspective(700px) rotateX(4deg) rotateY(-5deg) translateY(-4px)}
+.atm.bank{background:linear-gradient(135deg,#A2CFFE 0%,#D6EAF8 42%,#F5C6D6 100%)}
+.atm.dana{background:linear-gradient(135deg,#F5C6D6 0%,#FADADD 40%,#B8D8F8 100%)}
+.atm::before,.atm::after{content:"";position:absolute;border-radius:50%;pointer-events:none}
+.atm::before{width:210px;height:210px;right:-70px;top:-90px;background:radial-gradient(circle,rgba(255,255,255,.7),transparent 70%)}
+.atm::after{width:230px;height:230px;left:-90px;bottom:-130px;background:radial-gradient(circle,rgba(255,255,255,.55),transparent 70%)}
+.atm > *{position:relative;z-index:1}
+.atm-top{display:flex;justify-content:space-between;align-items:center}
+.brand{font-family:var(--serif);font-weight:700;font-size:25px;letter-spacing:.04em;color:#1f3b63}
+.brand em{font-style:normal;color:var(--dusty-rose)}
+.brand.dn{font-family:var(--sans);font-weight:600;letter-spacing:.18em;font-size:21px;color:#2a6fd1}
+.atm-type{font-family:var(--sans);font-size:8.5px;letter-spacing:.24em;text-transform:uppercase;color:var(--dusty-blue);font-weight:500}
+.chip-row{display:flex;align-items:center;gap:12px}
+.chip{width:42px;height:32px}
+.nfc{width:26px;height:26px;stroke:var(--dusty-blue);fill:none;stroke-width:2;stroke-linecap:round}
+.num{font-family:var(--sans);font-weight:500;font-size:clamp(15px,5.3vw,20px);letter-spacing:.14em;color:var(--navy);text-shadow:0 1px 0 rgba(255,255,255,.8);white-space:nowrap}
+.holder small{display:block;font-family:var(--sans);font-size:8px;letter-spacing:.25em;text-transform:uppercase;color:var(--dusty-blue);font-weight:500}
+.holder b{font-family:var(--serif);font-weight:700;font-size:17px;letter-spacing:.07em;text-transform:uppercase}
+.copy-btn{margin-top:18px;display:inline-flex;align-items:center;gap:9px;padding:13px 26px;border-radius:999px;color:var(--navy);
+  font-family:var(--sans);font-size:11.5px;font-weight:600;letter-spacing:.12em;text-transform:uppercase;
+  background:linear-gradient(135deg,#fff,var(--card-pink));border:1.5px solid var(--rose-gold);box-shadow:0 6px 16px rgba(201,138,158,.3);transition:.3s}
+.copy-btn:hover{background:linear-gradient(135deg,#A2CFFE,#F5C6D6);transform:translateY(-2px)}
+.copy-btn:active{transform:scale(.97)}
+.copy-btn svg{width:17px;height:17px;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
+.copy-btn.done{background:linear-gradient(135deg,#D6F0E0,#EAF4FC)}
+
+/* =====================================================================
+   H. SECTION 7 — RSVP
+   ===================================================================== */
+#rsvp{background:linear-gradient(180deg,#FDEEF4,#EAF4FC 60%,#F5E4EE)}
+.form{margin:30px auto 0;max-width:380px;padding:30px 22px 26px;text-align:left;border-radius:28px;position:relative;
+  background:linear-gradient(160deg,rgba(255,240,245,.95),rgba(234,244,252,.95));border:1.5px solid var(--rose-gold);
+  box-shadow:0 0 0 5px rgba(255,255,255,.7),0 0 0 6px rgba(108,155,207,.45),0 20px 44px rgba(93,138,168,.28)}
+.field{margin-bottom:18px}
+.field label.l{display:block;font-family:var(--sans);font-size:10.5px;letter-spacing:.22em;text-transform:uppercase;color:var(--dusty-blue);font-weight:600;margin-bottom:8px}
+.field input[type=text],.field select,.field textarea{width:100%;font-family:var(--body);font-size:15px;color:var(--navy);padding:13px 16px;border-radius:16px;
+  border:1.5px solid rgba(93,138,168,.35);background:rgba(255,255,255,.9);outline:0;transition:.25s;-webkit-appearance:none;appearance:none}
+.field select{background-image:linear-gradient(45deg,transparent 50%,var(--dusty-rose) 50%),linear-gradient(135deg,var(--dusty-rose) 50%,transparent 50%);
+  background-position:calc(100% - 22px) 52%,calc(100% - 16px) 52%;background-size:6px 6px;background-repeat:no-repeat}
+.field input:focus,.field select:focus,.field textarea:focus{border-color:var(--dusty-rose);box-shadow:0 0 0 4px rgba(244,164,184,.3)}
+.field textarea{min-height:110px;resize:vertical;line-height:1.6}
+.radios{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.radios input{position:absolute;opacity:0;pointer-events:none}
+.radios label{text-align:center;padding:12px 8px;border-radius:16px;border:1.5px solid rgba(93,138,168,.35);background:rgba(255,255,255,.9);
+  font-family:var(--sans);font-size:12px;font-weight:500;letter-spacing:.05em;cursor:pointer;transition:.25s}
+.radios input:checked + label.yes{background:linear-gradient(135deg,#A2CFFE,#D6EAF8);border-color:var(--arch-blue);box-shadow:0 6px 16px rgba(108,155,207,.4)}
+.radios input:checked + label.no{background:linear-gradient(135deg,#F5C6D6,#FFE4EC);border-color:var(--dusty-rose);box-shadow:0 6px 16px rgba(212,122,146,.35)}
+.radios input:focus-visible + label{outline:2px solid var(--dusty-rose);outline-offset:2px}
+.submit{width:100%;padding:16px;border-radius:999px;color:var(--navy);font-family:var(--sans);font-weight:600;font-size:12.5px;letter-spacing:.16em;text-transform:uppercase;
+  background:linear-gradient(120deg,#A2CFFE,#F5C6D6 60%,#F4A4B8);border:1.5px solid #fff;box-shadow:0 10px 24px rgba(93,138,168,.4);transition:.3s}
+.submit:hover{transform:translateY(-2px);box-shadow:0 14px 30px rgba(93,138,168,.5)}
+.submit[disabled]{opacity:.6;pointer-events:none}
+.err{color:#b03a5b;font-size:12px;margin-top:6px;display:none;font-family:var(--sans)}
+.field.bad .err{display:block}.field.bad input[type=text],.field.bad textarea{border-color:#d1587b}
+.wish-head{margin:50px 0 16px;display:flex;align-items:center;justify-content:center;gap:12px;flex-wrap:wrap}
+.wish-head h3{font-family:var(--serif);font-weight:600;font-size:26px;letter-spacing:.1em;text-transform:uppercase}
+.badge{font-family:var(--sans);font-size:11px;padding:4px 12px;border-radius:999px;background:linear-gradient(135deg,#A2CFFE,#F5C6D6);font-weight:600}
+.stats{display:flex;justify-content:center;gap:10px;margin-bottom:18px;font-family:var(--sans);font-size:11px;letter-spacing:.06em;color:#46607a;flex-wrap:wrap}
+.stats span{padding:6px 14px;border-radius:999px;background:rgba(255,255,255,.75);border:1px solid rgba(201,138,158,.4)}
+.wishes{max-height:470px;overflow-y:auto;padding:4px 6px 8px;display:flex;flex-direction:column;gap:14px;text-align:left;scrollbar-width:thin;scrollbar-color:var(--rose-gold) transparent}
+.wishes::-webkit-scrollbar{width:5px}.wishes::-webkit-scrollbar-thumb{background:var(--rose-gold);border-radius:5px}
+.wish{padding:16px 18px;border-radius:20px 20px 20px 4px;border:1.5px solid;animation:pop .6s cubic-bezier(.2,.9,.3,1.2) both;position:relative}
+.wish:nth-child(odd){background:linear-gradient(135deg,#FFF0F5,#FADADD);border-color:rgba(201,138,158,.6)}
+.wish:nth-child(even){background:linear-gradient(135deg,#EAF4FC,#CFE4F8);border-color:rgba(108,155,207,.6);border-radius:20px 20px 4px 20px}
+@keyframes pop{from{opacity:0;transform:translateY(16px) scale(.96)}}
+.wish-top{display:flex;justify-content:space-between;align-items:center;gap:8px;flex-wrap:wrap;margin-bottom:6px}
+.wish-top b{font-family:var(--serif);font-weight:700;font-size:18px;letter-spacing:.03em;word-break:break-word}
+.tag{font-family:var(--sans);font-size:9.5px;letter-spacing:.1em;text-transform:uppercase;padding:3px 10px;border-radius:999px;font-weight:600;background:rgba(255,255,255,.85);border:1px solid}
+.tag.y{color:#2c6aa8;border-color:var(--arch-blue)}.tag.n{color:#b04a67;border-color:var(--dusty-rose)}
+.wish p{font-size:14px;line-height:1.65;white-space:pre-wrap;word-break:break-word}
+.wish time{display:block;margin-top:8px;font-family:var(--sans);font-size:10.5px;color:#6a819a;letter-spacing:.04em}
+.empty{padding:26px;border-radius:20px;border:1.5px dashed var(--rose-gold);font-style:italic;font-size:14px;color:#46607a;background:rgba(255,255,255,.6)}
+
+/* footer */
+.footer{padding:70px 26px 90px;text-align:center;background:linear-gradient(180deg,#F5E4EE,#B8D8F8 60%,#8BB8E8);position:relative;overflow:hidden}
+.footer p{font-size:14px;max-width:360px;margin:0 auto;color:#243B53}
+.footer .f-names{font-family:var(--serif);font-style:italic;font-weight:500;font-size:44px;margin:18px 0 6px;color:var(--navy);line-height:1.1}
+.footer .f-small{font-family:var(--sans);font-size:10.5px;letter-spacing:.3em;text-transform:uppercase;color:#3A5A78;margin-top:6px}
+.footer .f-hash{font-style:italic;color:var(--dusty-rose);margin-top:14px;font-size:14px}
+
+/* share tool (?bagikan=1) */
+.share-tool{display:none;min-height:100vh;padding:34px 20px 60px;background:linear-gradient(180deg,#EAF4FC,#FFF0F5 50%,#EAF4FC)}
+.share-tool.active{display:block}
+.share-card{background:rgba(255,255,255,.92);border:1.5px solid var(--rose-gold);border-radius:24px;padding:22px 18px;margin-top:20px;box-shadow:0 12px 30px rgba(93,138,168,.2)}
+.share-card label{display:block;font-family:var(--sans);font-size:10.5px;letter-spacing:.18em;text-transform:uppercase;color:var(--dusty-blue);font-weight:600;margin:14px 0 6px}
+.share-card label:first-child{margin-top:0}
+.share-card input,.share-card textarea{width:100%;font-family:var(--body);font-size:13.5px;color:var(--navy);padding:11px 13px;border-radius:14px;border:1.5px solid rgba(93,138,168,.35);background:#fff;outline:0}
+.share-card textarea{min-height:94px;resize:vertical;line-height:1.55}
+.share-list{display:flex;flex-direction:column;gap:14px;margin-top:22px}
+.share-item{background:linear-gradient(135deg,#FFF5F8,#EAF4FC);border:1.5px solid rgba(201,138,158,.6);border-radius:20px;padding:15px 16px;text-align:left}
+.share-item h4{font-family:var(--serif);font-size:21px;font-weight:700;color:var(--navy);margin-bottom:4px}
+.share-url{font-family:var(--sans);font-size:11px;color:#3A5A78;word-break:break-all;background:rgba(255,255,255,.8);padding:8px 10px;border-radius:10px;border:1px dashed rgba(93,138,168,.4);margin:6px 0 12px}
+.share-acts{display:flex;flex-wrap:wrap;gap:8px}
+.share-acts button,.share-acts a{display:inline-flex;align-items:center;gap:6px;padding:9px 14px;border-radius:999px;font-family:var(--sans);font-size:11px;font-weight:600;text-decoration:none;border:1px solid var(--rose-gold);background:#fff;color:var(--navy)}
+.share-acts a.wa{background:linear-gradient(135deg,#A2CFFE,#F5C6D6);border-color:#fff}
+
+@media (prefers-reduced-motion:reduce){
+  *,*::before,*::after{animation-duration:.01ms!important;animation-delay:0s!important;animation-iteration-count:1!important;transition-duration:.01ms!important}
+  .reveal{opacity:1;transform:none}
+}
+</style>
+</head>
+
+<body class="locked">
+
+<!-- ===================================================================
+     SVG LIBRARY (defs shared across the page)
+     =================================================================== -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+<defs>
+  <linearGradient id="gMarble" x1="0" y1="0" x2="0.3" y2="1">
+    <stop offset="0" stop-color="#FFFFFF"/><stop offset=".55" stop-color="#FDEFF4"/><stop offset="1" stop-color="#E4D3EC"/>
+  </linearGradient>
+  <linearGradient id="gMarbleBlue" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#F4F9FE"/><stop offset="1" stop-color="#BFD6EE"/>
+  </linearGradient>
+  <linearGradient id="gRose" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#E7B0C0"/><stop offset=".5" stop-color="#C98A9E"/><stop offset="1" stop-color="#E9C2CE"/>
+  </linearGradient>
+  <linearGradient id="gGold" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#F6D5DD"/><stop offset=".5" stop-color="#C98A9E"/><stop offset="1" stop-color="#A2CFFE"/>
+  </linearGradient>
+  <radialGradient id="gMoon" cx=".38" cy=".34" r=".78">
+    <stop offset="0" stop-color="#FFFDFE"/><stop offset=".5" stop-color="#FFE9F0"/><stop offset="1" stop-color="#FFC5D8"/>
+  </radialGradient>
+  <radialGradient id="gGlow" cx=".5" cy=".5" r=".5">
+    <stop offset="0" stop-color="#FFD6E4" stop-opacity=".95"/><stop offset=".45" stop-color="#FFE4EC" stop-opacity=".5"/><stop offset="1" stop-color="#FFE4EC" stop-opacity="0"/>
+  </radialGradient>
+  <linearGradient id="gCloud" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#FFFFFF" stop-opacity=".95"/><stop offset="1" stop-color="#FADADD" stop-opacity=".8"/>
+  </linearGradient>
+  <linearGradient id="gPool" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#F5C6D6" stop-opacity=".75"/><stop offset="1" stop-color="#8BB8E8" stop-opacity=".9"/>
+  </linearGradient>
+  <linearGradient id="gFade" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#fff" stop-opacity=".55"/><stop offset="1" stop-color="#fff" stop-opacity="0"/>
+  </linearGradient>
+  <mask id="mReflect"><rect x="0" y="630" width="480" height="70" fill="url(#gFade)"/></mask>
+
+  <!-- onion dome -->
+  <symbol id="dome" viewBox="0 0 100 100" preserveAspectRatio="none">
+    <path d="M12 100 C-4 66 22 32 50 0 C78 32 104 66 88 100 Z" fill="url(#gMarble)" stroke="#C9B6D9" stroke-width="1.6" vector-effect="non-scaling-stroke"/>
+    <path d="M50 4 C50 40 50 70 50 100" stroke="#fff" stroke-opacity=".6" stroke-width="1.5" fill="none" vector-effect="non-scaling-stroke"/>
+    <path d="M30 40 C30 60 24 80 22 100" stroke="#C9B6D9" stroke-opacity=".4" stroke-width="1" fill="none" vector-effect="non-scaling-stroke"/>
+    <path d="M70 40 C70 60 76 80 78 100" stroke="#C9B6D9" stroke-opacity=".4" stroke-width="1" fill="none" vector-effect="non-scaling-stroke"/>
+  </symbol>
+
+  <!-- Taj Mahal (local coords: width 480, ground y = 300) -->
+  <g id="taj">
+    <!-- plinth -->
+    <rect x="14" y="298" width="452" height="12" fill="url(#gMarble)" stroke="#CDB9D8" stroke-width=".7"/>
+    <rect x="44" y="288" width="392" height="11" fill="url(#gMarble)" stroke="#CDB9D8" stroke-width=".7"/>
+    <!-- low walls -->
+    <rect x="64" y="262" width="34" height="27" fill="url(#gMarble)" stroke="#CDB9D8" stroke-width=".7"/>
+    <rect x="382" y="262" width="34" height="27" fill="url(#gMarble)" stroke="#CDB9D8" stroke-width=".7"/>
+    <!-- side wings -->
+    <g stroke="#C9B6D9" stroke-width=".8">
+      <rect x="96" y="246" width="64" height="43" fill="url(#gMarble)"/>
+      <rect x="320" y="246" width="64" height="43" fill="url(#gMarble)"/>
+    </g>
+    <g fill="#AFC6E2" opacity=".85">
+      <path d="M104 289V266q5-12 10 0V289Z"/><path d="M121 289V266q6-14 12 0V289Z"/><path d="M141 289V266q5-12 10 0V289Z"/>
+      <path d="M329 289V266q5-12 10 0V289Z"/><path d="M347 289V266q6-14 12 0V289Z"/><path d="M366 289V266q5-12 10 0V289Z"/>
+    </g>
+    <use href="#dome" x="108" y="218" width="40" height="30"/>
+    <use href="#dome" x="332" y="218" width="40" height="30"/>
+    <g stroke="#C98A9E" stroke-width="1.2"><path d="M128 218V206"/><path d="M352 218V206"/></g>
+    <g fill="#C98A9E"><circle cx="128" cy="205" r="2"/><circle cx="352" cy="205" r="2"/></g>
+
+    <!-- main body -->
+    <rect x="164" y="190" width="152" height="99" fill="url(#gMarble)" stroke="#C9B6D9" stroke-width=".9"/>
+    <rect x="203" y="176" width="74" height="113" fill="url(#gMarble)" stroke="#C9B6D9" stroke-width=".9"/>
+    <rect x="198" y="170" width="84" height="8" fill="url(#gMarble)" stroke="#C9B6D9" stroke-width=".8"/>
+    <!-- great iwan -->
+    <path d="M218 289V216C218 200 231 190 240 180C249 190 262 200 262 216V289Z" fill="#B4CBE6" stroke="#C98A9E" stroke-width="1.2"/>
+    <path d="M226 289V222C226 210 235 202 240 196C245 202 254 210 254 222V289Z" fill="#8FB0D6" opacity=".9"/>
+    <path d="M233 289V236C233 228 237 224 240 220C243 224 247 228 247 236V289Z" fill="#6C9BCF" opacity=".75"/>
+    <!-- side niches -->
+    <g fill="#B4CBE6" stroke="#C98A9E" stroke-width=".9">
+      <path d="M173 289V246C173 238 178 233 183 228C188 233 193 238 193 246V289Z"/>
+      <path d="M287 289V246C287 238 292 233 297 228C302 233 307 238 307 246V289Z"/>
+    </g>
+    <g fill="#8FB0D6" opacity=".8">
+      <path d="M177 289V250C177 244 180 240 183 236C186 240 189 244 189 250V289Z"/>
+      <path d="M291 289V250C291 244 294 240 297 236C300 240 303 244 303 250V289Z"/>
+    </g>
+    <!-- upper blind windows -->
+    <g fill="#C7D9EE" stroke="#C9B6D9" stroke-width=".6">
+      <path d="M178 224V206q5-9 10 0V224Z"/><path d="M292 224V206q5-9 10 0V224Z"/>
+      <path d="M213 165V160q3-6 6 0V165Z"/><path d="M261 165V160q3-6 6 0V165Z"/>
+    </g>
+    <!-- main dome -->
+    <rect x="212" y="148" width="56" height="24" fill="url(#gMarble)" stroke="#C9B6D9" stroke-width=".9"/>
+    <rect x="207" y="168" width="66" height="5" fill="url(#gMarble)" stroke="#C9B6D9" stroke-width=".7"/>
+    <use href="#dome" x="196" y="72" width="88" height="80"/>
+    <g stroke="#C98A9E" stroke-width="1.6" stroke-linecap="round"><path d="M240 74V46"/><path d="M233 60H247"/></g>
+    <g fill="#C98A9E"><ellipse cx="240" cy="66" rx="3" ry="4"/><circle cx="240" cy="44" r="2.4"/></g>
+    <!-- chhatris -->
+    <g>
+      <g id="chh"><rect x="171" y="176" width="14" height="14" fill="#F3E3EC" stroke="#C9B6D9" stroke-width=".7"/>
+        <rect x="174" y="180" width="2.4" height="10" fill="#C9B6D9"/><rect x="180" y="180" width="2.4" height="10" fill="#C9B6D9"/>
+        <use href="#dome" x="168" y="156" width="20" height="21"/><path d="M178 157V148" stroke="#C98A9E" stroke-width="1.1"/><circle cx="178" cy="147" r="1.5" fill="#C98A9E"/></g>
+      <use href="#chh" x="124"/>
+      <g><rect x="200" y="158" width="12" height="13" fill="#F3E3EC" stroke="#C9B6D9" stroke-width=".7"/>
+        <use href="#dome" x="198" y="142" width="16" height="17"/><path d="M206 143V136" stroke="#C98A9E" stroke-width="1"/><circle cx="206" cy="135" r="1.4" fill="#C98A9E"/></g>
+      <g><rect x="268" y="158" width="12" height="13" fill="#F3E3EC" stroke="#C9B6D9" stroke-width=".7"/>
+        <use href="#dome" x="266" y="142" width="16" height="17"/><path d="M274 143V136" stroke="#C98A9E" stroke-width="1"/><circle cx="274" cy="135" r="1.4" fill="#C98A9E"/></g>
+    </g>
+    <!-- minarets -->
+    <g id="minaret">
+      <rect x="36" y="268" width="32" height="21" fill="url(#gMarble)" stroke="#C9B6D9" stroke-width=".8"/>
+      <rect x="43" y="132" width="18" height="138" fill="url(#gMarble)" stroke="#C9B6D9" stroke-width=".8"/>
+      <g fill="#F7E3EC" stroke="#C98A9E" stroke-width=".8">
+        <rect x="38" y="236" width="28" height="5"/><rect x="38" y="196" width="28" height="5"/><rect x="38" y="162" width="28" height="5"/>
+      </g>
+      <g stroke="#C9B6D9" stroke-width=".7"><path d="M52 132V270"/><path d="M47 132V270" stroke-opacity=".5"/></g>
+      <rect x="40" y="118" width="24" height="15" fill="#F3E3EC" stroke="#C9B6D9" stroke-width=".7"/>
+      <g fill="#C9B6D9"><rect x="43" y="121" width="2.6" height="12"/><rect x="50.7" y="121" width="2.6" height="12"/><rect x="58.4" y="121" width="2.6" height="12"/></g>
+      <use href="#dome" x="38" y="92" width="28" height="27"/>
+      <path d="M52 93V78" stroke="#C98A9E" stroke-width="1.3"/><circle cx="52" cy="76" r="2" fill="#C98A9E"/>
+    </g>
+    <use href="#minaret" x="376"/>
+  </g>
+
+  <!-- cloud -->
+  <symbol id="cloud" viewBox="0 0 240 90">
+    <g fill="url(#gCloud)">
+      <ellipse cx="60" cy="64" rx="52" ry="22"/><ellipse cx="120" cy="58" rx="64" ry="28"/>
+      <circle cx="98" cy="38" r="26"/><circle cx="148" cy="42" r="30"/><circle cx="186" cy="60" r="26"/>
+      <ellipse cx="170" cy="70" rx="56" ry="18"/>
+    </g>
+  </symbol>
+
+  <!-- ===== flowers (colours via --c / --c2 on <use>) ===== -->
+  <symbol id="rose" viewBox="-50 -50 100 100">
+    <g stroke="var(--c2,#D47A92)" stroke-width="1" stroke-linejoin="round" fill="var(--c,#F4A4B8)">
+      <ellipse cy="-27" rx="19" ry="21"/>
+      <ellipse cy="-27" rx="19" ry="21" transform="rotate(72)"/><ellipse cy="-27" rx="19" ry="21" transform="rotate(144)"/>
+      <ellipse cy="-27" rx="19" ry="21" transform="rotate(216)"/><ellipse cy="-27" rx="19" ry="21" transform="rotate(288)"/>
+      <circle r="26"/>
+    </g>
+    <g fill="none" stroke="var(--c2,#D47A92)" stroke-linecap="round" stroke-linejoin="round">
+      <circle r="18" stroke-width=".9" fill="var(--c,#F4A4B8)"/>
+      <path d="M-14 -4C-12-14 4-18 12-10" stroke-width="1.1"/><path d="M14 6C8 16-8 16-14 6" stroke-width="1.1"/>
+      <circle r="10" stroke-width="1.1" fill="var(--c,#F4A4B8)"/>
+      <path d="M-2 -3C6-4 9 5 1 7C-6 9-8 0-3-5C2-8 8-4 7 2" stroke-width="1.6"/>
+    </g>
+    <path d="M-30 -18C-22 -34 -6 -40 8 -38" fill="none" stroke="#fff" stroke-opacity=".55" stroke-width="2" stroke-linecap="round"/>
+  </symbol>
+  <symbol id="peony" viewBox="-50 -50 100 100">
+    <g stroke="var(--c2,#D47A92)" stroke-width=".9" fill="var(--c,#F4A4B8)" stroke-linejoin="round">
+      <g id="pLayer1"><ellipse cy="-31" rx="15" ry="18"/><ellipse cy="-31" rx="15" ry="18" transform="rotate(45)"/><ellipse cy="-31" rx="15" ry="18" transform="rotate(90)"/><ellipse cy="-31" rx="15" ry="18" transform="rotate(135)"/>
+      <ellipse cy="-31" rx="15" ry="18" transform="rotate(180)"/><ellipse cy="-31" rx="15" ry="18" transform="rotate(225)"/><ellipse cy="-31" rx="15" ry="18" transform="rotate(270)"/><ellipse cy="-31" rx="15" ry="18" transform="rotate(315)"/></g>
+      <g fill-opacity=".92"><ellipse cy="-24" rx="13" ry="16" transform="rotate(22)"/><ellipse cy="-24" rx="13" ry="16" transform="rotate(67)"/><ellipse cy="-24" rx="13" ry="16" transform="rotate(112)"/><ellipse cy="-24" rx="13" ry="16" transform="rotate(157)"/>
+      <ellipse cy="-24" rx="13" ry="16" transform="rotate(202)"/><ellipse cy="-24" rx="13" ry="16" transform="rotate(247)"/><ellipse cy="-24" rx="13" ry="16" transform="rotate(292)"/><ellipse cy="-24" rx="13" ry="16" transform="rotate(337)"/></g>
+      <g><ellipse cy="-14" rx="10" ry="13"/><ellipse cy="-14" rx="10" ry="13" transform="rotate(60)"/><ellipse cy="-14" rx="10" ry="13" transform="rotate(120)"/><ellipse cy="-14" rx="10" ry="13" transform="rotate(180)"/><ellipse cy="-14" rx="10" ry="13" transform="rotate(240)"/><ellipse cy="-14" rx="10" ry="13" transform="rotate(300)"/></g>
+    </g>
+    <circle r="8" fill="#FFE9C9" stroke="var(--c2,#D47A92)" stroke-width=".8"/>
+    <g fill="#E3B27A"><circle cx="0" cy="-3" r="1.4"/><circle cx="3" cy="2" r="1.4"/><circle cx="-3" cy="2" r="1.4"/><circle cx="0" cy="0" r="1.2"/></g>
+    <path d="M-22 -28C-14 -40 2 -44 14 -38" fill="none" stroke="#fff" stroke-opacity=".5" stroke-width="2" stroke-linecap="round"/>
+  </symbol>
+  <symbol id="blossom" viewBox="-50 -50 100 100">
+    <g fill="var(--c,#A2CFFE)" stroke="var(--c2,#6C9BCF)" stroke-width="1.2">
+      <circle cy="-26" r="19"/><circle cy="-26" r="19" transform="rotate(72)"/><circle cy="-26" r="19" transform="rotate(144)"/><circle cy="-26" r="19" transform="rotate(216)"/><circle cy="-26" r="19" transform="rotate(288)"/>
+    </g>
+    <circle r="12" fill="#FFF3C9" stroke="var(--c2,#6C9BCF)" stroke-width="1"/>
+    <g fill="#E8B77A"><circle cx="0" cy="-5" r="2"/><circle cx="5" cy="1" r="2"/><circle cx="-5" cy="1" r="2"/><circle cx="3" cy="5" r="1.6"/><circle cx="-3" cy="5" r="1.6"/></g>
+  </symbol>
+  <g id="eleaf"><path d="M0 0C-13 -8 -13 -24 0 -32C13 -24 13 -8 0 0Z" fill="var(--lc,#8FAEC4)"/><path d="M0 -2V-28" stroke="#fff" stroke-opacity=".5" stroke-width=".9" fill="none"/></g>
+  <g id="sleaf"><path d="M0 0C-6 -10 -5 -22 0 -34C5 -22 6 -10 0 0Z" fill="var(--lc,#8FAEC4)"/><path d="M0 -2V-30" stroke="#fff" stroke-opacity=".4" stroke-width=".7" fill="none"/></g>
+
+  <!-- Mughal arch ornament (card headers) -->
+  <symbol id="archOrn" viewBox="0 0 120 70">
+    <path d="M8 70V42C8 28 28 20 44 13C54 9 58 5 60 0C62 5 66 9 76 13C92 20 112 28 112 42V70" fill="rgba(255,255,255,.7)" stroke="url(#gRose)" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M18 70V44C18 33 34 27 48 21C56 17 59 14 60 9C61 14 64 17 72 21C86 27 102 33 102 44V70" fill="none" stroke="#6C9BCF" stroke-width="2" stroke-linejoin="round"/>
+    <path d="M28 70V47C28 40 40 36 52 31C57 28 59 26 60 22C61 26 63 28 68 31C80 36 92 40 92 47V70" fill="none" stroke="#C98A9E" stroke-width="1" stroke-dasharray="2 3"/>
+    <circle cx="60" cy="-1" r="3.2" fill="#C98A9E"/>
+    <g transform="translate(60 48)"><circle r="6" fill="#F4A4B8" stroke="#D47A92"/><circle r="2.4" fill="#FFF3C9"/></g>
+  </symbol>
+  <symbol id="lotus" viewBox="-20 -20 40 40">
+    <g fill="var(--c,#F4A4B8)" stroke="var(--c2,#D47A92)" stroke-width=".8">
+      <path d="M0 14C-10 6-10-6 0-14C10-6 10 6 0 14Z"/><path d="M0 14C-14 8-18-2-14-8C-6-6-2 2 0 14Z"/><path d="M0 14C14 8 18-2 14-8C6-6 2 2 0 14Z"/>
+    </g>
+  </symbol>
+</defs>
+</svg>
+
+<!-- Audio (source diisi lewat JS dari CONFIG / Google Drive) -->
+<audio id="bgMusic" loop preload="auto"></audio>
+
+<!-- ===================================================================
+     A. COVER
+     =================================================================== -->
+<div class="cover" id="cover">
+  <div class="cover-bg"></div>
+  <svg class="deco-top" id="cvTop" viewBox="0 0 480 240" aria-hidden="true"></svg>
+  <svg class="deco-bottom" id="cvBot" viewBox="0 0 480 220" aria-hidden="true"></svg>
+  <div class="cover-fx" id="coverFx"></div>
+
+  <div class="cover-top">
+    <div class="cover-small">The Wedding Of</div>
+    <h1 class="cover-names">Riani &amp; Rafly</h1>
+    <div class="cover-date">Minggu, 22 Agustus 2027</div>
+  </div>
+
+  <!-- Ilustrasi kartun pernikahan Islami -->
+  <div class="cover-art" aria-hidden="true">
+    <svg viewBox="0 0 400 440" preserveAspectRatio="xMidYMid meet">
+      <defs>
+        <linearGradient id="cvCoat" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#B4D6F7"/><stop offset="1" stop-color="#6FA2D6"/></linearGradient>
+        <linearGradient id="cvGown" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFE9F0"/><stop offset=".5" stop-color="#F9C0D1"/><stop offset="1" stop-color="#EE9FB7"/></linearGradient>
+        <linearGradient id="cvHill" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#D4E8F1"/><stop offset="1" stop-color="#A4C8DE"/></linearGradient>
+        <linearGradient id="cvDomeP" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FFF5F8"/><stop offset="1" stop-color="#F2BFD0"/></linearGradient>
+        <linearGradient id="cvDomeB" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#F2F8FE"/><stop offset="1" stop-color="#B3D3F0"/></linearGradient>
+        <radialGradient id="cvLamp" cx=".5" cy=".5" r=".55"><stop offset="0" stop-color="#FFF8DC"/><stop offset=".55" stop-color="#FFD3B5"/><stop offset="1" stop-color="#F4A4B8"/></radialGradient>
+        <radialGradient id="cvHalo" cx=".5" cy=".5" r=".5"><stop offset="0" stop-color="#FFE4C8" stop-opacity=".9"/><stop offset="1" stop-color="#FFE4EC" stop-opacity="0"/></radialGradient>
+        <clipPath id="cvCoatClip"><path d="M110 242Q150 230 190 242L196 345Q150 356 104 345Z"/></clipPath>
+        <symbol id="heart" viewBox="-12 -12 24 24"><path d="M0 9C-14 -1 -9 -12 0 -5C9 -12 14 -1 0 9Z" fill="var(--c,#F4A4B8)" stroke="#fff" stroke-width="1" stroke-opacity=".7"/></symbol>
+        <path id="cvSpark" d="M0 -9Q1 -1 9 0Q1 1 0 9Q-1 1 -9 0Q-1 -1 0 -9Z"/>
+      </defs>
+
+      <!-- lengkung Mughal sebagai latar -->
+      <g transform="translate(20 -6) scale(1.2 .94)">
+        <path vector-effect="non-scaling-stroke" d="M6 478V216C6 150 58 108 98 84C124 68 142 46 150 14C158 46 176 68 202 84C242 108 294 150 294 216V478Z" fill="rgba(255,245,248,.6)" stroke="#C98A9E" stroke-width="3"/>
+        <path vector-effect="non-scaling-stroke" d="M20 478V220C20 160 66 122 106 98C132 82 148 62 150 36C152 62 168 82 194 98C234 122 280 160 280 220V478Z" fill="none" stroke="#6C9BCF" stroke-width="2"/>
+        <path vector-effect="non-scaling-stroke" d="M30 478V224C30 168 72 132 112 108C136 93 150 74 150 50C150 74 164 93 188 108C228 132 270 168 270 224V478Z" fill="none" stroke="#C98A9E" stroke-width="1" stroke-dasharray="1.5 4" stroke-linecap="round"/>
+      </g>
+
+      <!-- bulan sabit & bintang -->
+      <g transform="translate(318 34)">
+        <path d="M0 0A24 24 0 1 0 0 42A22 22 0 0 1 0 0Z" fill="#FFE4EC" stroke="#E7B0C0" stroke-width="1.4"/>
+        <circle cx="-14" cy="20" r="3" fill="#F7C9D8" opacity=".7"/>
+      </g>
+      <g fill="#FFF3C9" stroke="#E7B0C0" stroke-width=".6">
+        <use href="#cvSpark" class="sp" transform="translate(344 86) scale(.9)"/>
+        <use href="#cvSpark" class="sp" style="animation-delay:.9s" transform="translate(52 64)"/>
+        <use href="#cvSpark" class="sp" style="animation-delay:1.7s" transform="translate(88 118) scale(.6)"/>
+        <use href="#cvSpark" class="sp" style="animation-delay:.5s" transform="translate(360 150) scale(.7)"/>
+        <use href="#cvSpark" class="sp" style="animation-delay:1.3s" transform="translate(286 70) scale(.5)"/>
+      </g>
+
+      <!-- lampion / fanous -->
+      <g class="lantern" transform="translate(30 0)">
+        <circle cx="0" cy="60" r="42" fill="url(#cvHalo)"/>
+        <path d="M0 -120V0" stroke="#C98A9E" stroke-width="1.6"/>
+        <circle cx="0" cy="2" r="3" fill="none" stroke="#C98A9E" stroke-width="1.6"/>
+        <path d="M-15 12L0 0L15 12Z" fill="#C98A9E"/>
+        <rect x="-14" y="12" width="28" height="4" rx="2" fill="#E7B0C0"/>
+        <path d="M-14 16H14L19 52Q10 62 0 66Q-10 62 -19 52Z" fill="url(#cvLamp)" stroke="#C98A9E" stroke-width="1.4"/>
+        <path d="M-5 16Q-8 40 -5 64M5 16Q8 40 5 64M-16 34H16" stroke="#C98A9E" stroke-width="1" fill="none" opacity=".7"/>
+        <path d="M-8 66H8L5 72H-5Z" fill="#C98A9E"/><path d="M0 72V84" stroke="#C98A9E" stroke-width="1.4"/><circle cx="0" cy="87" r="3" fill="#F4A4B8"/>
+      </g>
+      <g class="lantern l2" transform="translate(370 0)">
+        <circle cx="0" cy="60" r="42" fill="url(#cvHalo)"/>
+        <path d="M0 -120V0" stroke="#6C9BCF" stroke-width="1.6"/>
+        <circle cx="0" cy="2" r="3" fill="none" stroke="#6C9BCF" stroke-width="1.6"/>
+        <path d="M-15 12L0 0L15 12Z" fill="#6C9BCF"/>
+        <rect x="-14" y="12" width="28" height="4" rx="2" fill="#A2CFFE"/>
+        <path d="M-14 16H14L19 52Q10 62 0 66Q-10 62 -19 52Z" fill="url(#cvLamp)" stroke="#6C9BCF" stroke-width="1.4"/>
+        <path d="M-5 16Q-8 40 -5 64M5 16Q8 40 5 64M-16 34H16" stroke="#6C9BCF" stroke-width="1" fill="none" opacity=".7"/>
+        <path d="M-8 66H8L5 72H-5Z" fill="#6C9BCF"/><path d="M0 72V84" stroke="#6C9BCF" stroke-width="1.4"/><circle cx="0" cy="87" r="3" fill="#A2CFFE"/>
+      </g>
+
+      <!-- masjid -->
+      <g>
+        <g id="cvMin">
+          <rect x="43" y="190" width="18" height="212" fill="url(#cvDomeB)" stroke="#9DBEE3" stroke-width=".8"/>
+          <rect x="38" y="226" width="28" height="5" rx="1" fill="#F5C6D6"/><rect x="38" y="272" width="28" height="5" rx="1" fill="#F5C6D6"/>
+          <path d="M47 240V258Q52 250 57 258V240Z M47 290V308Q52 300 57 308V290Z" fill="#9DBEE3" opacity=".8"/>
+          <path d="M40 190C40 174 48 164 52 150C56 164 64 174 64 190Z" fill="url(#cvDomeP)" stroke="#D9A2B5" stroke-width=".8"/>
+          <path d="M52 150V134" stroke="#C98A9E" stroke-width="1.6"/><circle cx="52" cy="132" r="2.4" fill="#C98A9E"/>
+        </g>
+        <use href="#cvMin" x="296"/>
+        <rect x="100" y="290" width="200" height="112" fill="url(#cvDomeB)" stroke="#9DBEE3" stroke-width=".8"/>
+        <rect x="96" y="286" width="208" height="8" rx="2" fill="#F5C6D6"/>
+        <g fill="#8FB6DC" opacity=".85">
+          <path d="M112 400V340Q122 322 132 340V400Z"/><path d="M268 400V340Q278 322 288 340V400Z"/>
+        </g>
+        <rect x="150" y="248" width="100" height="44" fill="url(#cvDomeB)" stroke="#9DBEE3" stroke-width=".8"/>
+        <path d="M138 252C126 206 166 168 200 112C234 168 274 206 262 252Z" fill="url(#cvDomeP)" stroke="#D9A2B5" stroke-width="1"/>
+        <path d="M200 116V252" stroke="#fff" stroke-opacity=".6" stroke-width="1.4"/>
+        <path d="M200 112V86" stroke="#C98A9E" stroke-width="2"/>
+        <path d="M205 80A9 9 0 1 0 205 96A7.500 7.500 0 0 1 205 80Z" fill="#C98A9E" transform="translate(-4 -2)"/>
+        <path d="M100 290C98 268 110 258 118 244C126 258 138 268 136 290Z" fill="url(#cvDomeP)" stroke="#D9A2B5" stroke-width=".8"/>
+        <path d="M264 290C262 268 274 258 282 244C290 258 302 268 300 290Z" fill="url(#cvDomeP)" stroke="#D9A2B5" stroke-width=".8"/>
+        <path d="M118 244V230M282 244V230" stroke="#C98A9E" stroke-width="1.4"/><circle cx="118" cy="228" r="2" fill="#C98A9E"/><circle cx="282" cy="228" r="2" fill="#C98A9E"/>
+      </g>
+
+      <!-- bukit -->
+      <path d="M-30 402C60 378 130 388 200 392S340 376 430 398V470H-30Z" fill="url(#cvHill)"/>
+      <path d="M-30 420C70 404 150 412 220 414S350 406 430 420V470H-30Z" fill="#B3D2E6"/>
+      <g stroke="#7FA9BE" stroke-width="1.6" stroke-linecap="round" fill="none">
+        <path d="M70 412q-3-9-8-12M70 412q0-10 0-16M70 412q3-9 8-12" /><path d="M330 408q-3-9-8-12M330 408q0-10 0-16M330 408q3-9 8-12"/>
+        <path d="M18 424q-3-8-7-10M18 424q0-9 0-14M18 424q3-8 7-10"/><path d="M384 426q-3-8-7-10M384 426q0-9 0-14M384 426q3-8 7-10"/>
+      </g>
+
+      <!-- pasangan -->
+      <g transform="translate(40 80) scale(.8)"><g class="couple-g">
+        <ellipse cx="150" cy="396" rx="50" ry="6" fill="#3A5A78" opacity=".2"/>
+        <ellipse cx="250" cy="398" rx="76" ry="7" fill="#3A5A78" opacity=".2"/>
+
+        <!-- ===== MEMPELAI PRIA ===== -->
+        <g>
+          <rect x="128" y="338" width="20" height="54" rx="8" fill="#FFFDF9" stroke="#E5D6E0"/>
+          <rect x="152" y="338" width="20" height="54" rx="8" fill="#FFFDF9" stroke="#E5D6E0"/>
+          <ellipse cx="135" cy="392" rx="16" ry="7.500" fill="#4A3F55"/><ellipse cx="165" cy="392" rx="16" ry="7.500" fill="#4A3F55"/>
+          <path d="M110 242Q150 230 190 242L196 345Q150 356 104 345Z" fill="url(#cvCoat)" stroke="#5F93C8" stroke-width="1.2"/>
+          <g clip-path="url(#cvCoatClip)">
+            <path d="M190 240L104 336" stroke="#F4A4B8" stroke-width="11" opacity=".95"/>
+            <path d="M190 240L104 336" stroke="#fff" stroke-width="1.4" stroke-dasharray="3 4" opacity=".8"/>
+          </g>
+          <path d="M150 238V352" stroke="#fff" stroke-width="2.600"/>
+          <g fill="#F7D9A8" stroke="#C98A9E" stroke-width=".7"><circle cx="150" cy="260" r="2.800"/><circle cx="150" cy="284" r="2.800"/><circle cx="150" cy="308" r="2.800"/><circle cx="150" cy="332" r="2.800"/></g>
+          <rect x="135" y="227" width="30" height="15" rx="5" fill="#5F93C8"/>
+          <path d="M112 246Q94 282 98 324L112 326Q110 290 126 260Z" fill="url(#cvCoat)" stroke="#5F93C8" stroke-width="1.2"/>
+          <path d="M188 246Q208 272 212 300L199 306Q194 284 178 264Z" fill="url(#cvCoat)" stroke="#5F93C8" stroke-width="1.2"/>
+          <circle cx="105" cy="331" r="8" fill="#F8D7BE"/>
+          <rect x="140" y="210" width="20" height="24" rx="6" fill="#F1C7A8"/>
+          <ellipse cx="150" cy="219" rx="10" ry="3.5" fill="#E2B290"/>
+          <g transform="translate(0 12)"><g class="tilt">
+            <circle cx="111" cy="170" r="7" fill="#F1C7A8"/><circle cx="189" cy="170" r="7" fill="#F1C7A8"/>
+            <circle cx="150" cy="166" r="40" fill="#F8D7BE"/>
+            <path d="M113 152Q113 138 120 132L180 132Q187 138 187 152Q178 142 150 140Q122 142 113 152Z" fill="#2B2B3A"/>
+            <path d="M116 142L120 106Q150 97 180 106L184 142Q150 134 116 142Z" fill="#2F2F40"/>
+            <path d="M118 128Q150 119 182 128" stroke="#C98A9E" stroke-width="2.200" fill="none"/>
+            <path d="M126 112Q140 104 152 103" stroke="#fff" stroke-opacity=".25" stroke-width="3" fill="none" stroke-linecap="round"/>
+            <g class="eyes"><ellipse cx="136" cy="170" rx="3.800" ry="5.200" fill="#3B2F3F"/><ellipse cx="164" cy="170" rx="3.800" ry="5.200" fill="#3B2F3F"/>
+              <circle cx="137.400" cy="168" r="1.400" fill="#fff"/><circle cx="165.400" cy="168" r="1.400" fill="#fff"/></g>
+            <path d="M129 160Q136 155 143 158M157 158Q164 155 171 160" stroke="#3B2F3F" stroke-width="2.200" fill="none" stroke-linecap="round"/>
+            <ellipse cx="150" cy="178" rx="2" ry="1.500" fill="#E3AA8E"/>
+            <path d="M141 184Q150 194 159 184" stroke="#B25D77" stroke-width="2.200" fill="none" stroke-linecap="round"/>
+            <ellipse cx="125" cy="180" rx="8" ry="5" fill="#F4A4B8" opacity=".55"/><ellipse cx="175" cy="180" rx="8" ry="5" fill="#F4A4B8" opacity=".55"/>
+          </g></g>
+        </g>
+
+        <!-- ===== MEMPELAI WANITA ===== -->
+        <g>
+          <path d="M214 250Q250 240 286 250L332 392Q250 410 168 392Z" fill="url(#cvGown)" stroke="#E7A9BF" stroke-width="1.200"/>
+          <path d="M250 262V400M232 258L204 398M268 258L296 398M214 262L180 394M286 262L320 394" stroke="#fff" stroke-opacity=".4" stroke-width="1.400" fill="none"/>
+          <path d="M172 386q9 9 17.500 0q9 9 17.500 0q9 9 17.500 0q9 9 17.500 0q9 9 17.500 0q9 9 17.500 0q9 9 17.500 0q9 9 17.500 0q9 9 17.500 0" stroke="#fff" stroke-width="1.800" fill="none" opacity=".95"/>
+          <path d="M216 252Q250 244 284 252L282 270Q250 278 218 270Z" fill="#FFE9F0" stroke="#E7A9BF" stroke-width=".8"/>
+          <path d="M220 266Q250 274 280 266" stroke="#fff" stroke-width="5" fill="none"/>
+          <g fill="#F4A4B8"><circle cx="232" cy="271" r="1.800"/><circle cx="250" cy="274" r="1.800"/><circle cx="268" cy="271" r="1.800"/></g>
+          <!-- lengan kiri (menggandeng) -->
+          <path d="M220 256Q206 282 204 302L216 308Q220 286 232 268Z" fill="#FADADD" stroke="#E7A9BF" stroke-width="1"/>
+          <!-- lengan kanan + buket -->
+          <path d="M280 258Q302 282 292 306L280 304Q286 286 270 270Z" fill="#FADADD" stroke="#E7A9BF" stroke-width="1"/>
+          <!-- hijab -->
+          <path d="M204 168Q204 114 250 114Q296 114 296 168Q298 214 316 248Q284 268 250 268Q216 268 184 248Q202 214 204 168Z" fill="#FFFDF9" stroke="#EBCBD6" stroke-width="1.200"/>
+          <path d="M222 216Q236 248 250 256M278 216Q264 248 250 256M236 232Q250 246 264 232" stroke="#EBCBD6" stroke-width="1.200" fill="none" stroke-linecap="round"/>
+          <path d="M200 190Q198 220 190 240" stroke="#F7E3EA" stroke-width="5" fill="none" stroke-linecap="round" opacity=".8"/>
+          <circle cx="250" cy="258" r="4.200" fill="#F4A4B8" stroke="#fff" stroke-width="1.200"/>
+          <!-- wajah -->
+          <ellipse cx="250" cy="172" rx="32" ry="35" fill="#F8D7BE" stroke="#EBCBD6" stroke-width="1.400"/>
+          <g class="eyes"><ellipse cx="238" cy="174" rx="3.800" ry="5.200" fill="#3B2F3F"/><ellipse cx="262" cy="174" rx="3.800" ry="5.200" fill="#3B2F3F"/>
+            <circle cx="239.400" cy="172" r="1.400" fill="#fff"/><circle cx="263.400" cy="172" r="1.400" fill="#fff"/>
+            <path d="M233.500 171.500L231 169M266.500 171.500L269 169" stroke="#3B2F3F" stroke-width="1.600" stroke-linecap="round"/></g>
+          <path d="M231 163Q238 158 245 161M255 161Q262 158 269 163" stroke="#6B4A4A" stroke-width="2" fill="none" stroke-linecap="round"/>
+          <ellipse cx="250" cy="182" rx="2" ry="1.500" fill="#E3AA8E"/>
+          <path d="M243 189Q250 197 257 189" stroke="#C0576F" stroke-width="2.200" fill="none" stroke-linecap="round"/>
+          <ellipse cx="230" cy="184" rx="7.500" ry="4.800" fill="#F4A4B8" opacity=".6"/><ellipse cx="270" cy="184" rx="7.500" ry="4.800" fill="#F4A4B8" opacity=".6"/>
+          <!-- mahkota bunga -->
+          <use href="#sleaf" transform="translate(208 140) rotate(-70) scale(.55)" style="--lc:#8FAEC4"/>
+          <use href="#sleaf" transform="translate(292 140) rotate(70) scale(.55)" style="--lc:#8FAEC4"/>
+          <use href="#blossom" x="214" y="104" width="22" height="22" style="--c:#A2CFFE;--c2:#6C9BCF"/>
+          <use href="#rose" x="226" y="94" width="26" height="26" style="--c:#F4A4B8;--c2:#D47A92"/>
+          <use href="#peony" x="244" y="88" width="30" height="30" style="--c:#FFFDF9;--c2:#E3BFCB"/>
+          <use href="#rose" x="266" y="96" width="26" height="26" style="--c:#A2CFFE;--c2:#6C9BCF"/>
+          <use href="#blossom" x="278" y="108" width="22" height="22" style="--c:#F4A4B8;--c2:#D47A92"/>
+          <!-- buket -->
+          <use href="#eleaf" transform="translate(290 322) rotate(-40) scale(1)" style="--lc:#8FAEC4"/>
+          <use href="#eleaf" transform="translate(290 322) rotate(10) scale(1.1)" style="--lc:#7C9DB6"/>
+          <use href="#eleaf" transform="translate(290 322) rotate(52) scale(.95)" style="--lc:#A3BED2"/>
+          <path d="M290 318l-8 16M290 318l8 16" stroke="#C98A9E" stroke-width="3" stroke-linecap="round"/>
+          <use href="#rose" x="270" y="282" width="30" height="30" style="--c:#F4A4B8;--c2:#D47A92"/>
+          <use href="#peony" x="288" y="280" width="30" height="30" style="--c:#A2CFFE;--c2:#6C9BCF"/>
+          <use href="#blossom" x="282" y="270" width="20" height="20" style="--c:#FFFDF9;--c2:#E3BFCB"/>
+          <circle cx="289" cy="308" r="7" fill="#F8D7BE"/>
+        </g>
+
+        <!-- tangan bergandengan -->
+        <circle cx="207" cy="308" r="8" fill="#F8D7BE"/>
+        <circle cx="210" cy="311" r="7" fill="#F1C7A8"/>
+      </g></g>
+
+      <!-- hati melayang -->
+      <g class="fh"><use href="#heart" x="190" y="214" width="22" height="22" style="--c:#F4A4B8"/></g>
+      <g class="fh" style="animation-delay:1.5s"><use href="#heart" x="108" y="218" width="14" height="14" style="--c:#A2CFFE"/></g>
+      <g class="fh" style="animation-delay:3s"><use href="#heart" x="268" y="222" width="16" height="16" style="--c:#F7B8C9"/></g>
+
+      <!-- bunga di bukit -->
+      <use href="#blossom" x="12" y="394" width="28" height="28" style="--c:#F4A4B8;--c2:#D47A92"/>
+      <use href="#rose" x="44" y="410" width="26" height="26" style="--c:#A2CFFE;--c2:#6C9BCF"/>
+      <use href="#blossom" x="96" y="402" width="20" height="20" style="--c:#FFFDF9;--c2:#E3BFCB"/>
+      <use href="#peony" x="112" y="414" width="30" height="30" style="--c:#F4A4B8;--c2:#D47A92"/>
+      <use href="#blossom" x="296" y="408" width="22" height="22" style="--c:#FFFDF9;--c2:#E3BFCB"/>
+      <use href="#rose" x="318" y="398" width="28" height="28" style="--c:#A2CFFE;--c2:#6C9BCF"/>
+      <use href="#peony" x="350" y="410" width="30" height="30" style="--c:#F4A4B8;--c2:#D47A92"/>
+      <use href="#blossom" x="376" y="396" width="22" height="22" style="--c:#A2CFFE;--c2:#6C9BCF"/>
+      <use href="#rose" x="218" y="418" width="22" height="22" style="--c:#F4A4B8;--c2:#D47A92"/>
+      <use href="#blossom" x="170" y="416" width="18" height="18" style="--c:#A2CFFE;--c2:#6C9BCF"/>
+    </svg>
+  </div>
+
+  <div class="cover-bottom">
+    <div class="cover-to">Kepada Yth:</div>
+    <div class="cover-to">Bapak/Ibu/Saudara/i</div>
+    <div class="cover-guest" id="guestName">Tamu Undangan</div>
+    <button class="open-btn" id="openBtn" type="button">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+        <rect x="2.5" y="5" width="19" height="14" rx="2.5"/><path d="M3 7l9 6.5L21 7"/><path d="M12 3.2c.8-1 2.3-.6 2.3.6 0 1-1.5 1.8-2.3 2.4-.8-.6-2.3-1.4-2.3-2.4 0-1.2 1.5-1.6 2.3-.6z" fill="currentColor" stroke="none" transform="translate(0 -.4)"/>
+      </svg>
+      Buka Undangan
+    </button>
+  </div>
+</div>
+
+<!-- floating music button -->
+<button class="music-btn paused" id="musicBtn" type="button" aria-label="Putar / jeda musik">
+  <svg class="disc" viewBox="0 0 60 60" aria-hidden="true">
+    <circle cx="30" cy="30" r="29" fill="#fff"/>
+    <circle cx="30" cy="30" r="26" fill="#243B53"/>
+    <g fill="none" stroke="#5D8AA8" stroke-width=".7" opacity=".8"><circle cx="30" cy="30" r="23"/><circle cx="30" cy="30" r="20"/><circle cx="30" cy="30" r="17"/></g>
+    <path d="M8 24A24 24 0 0 1 22 8" stroke="#fff" stroke-opacity=".5" stroke-width="2" fill="none" stroke-linecap="round"/>
+    <circle cx="30" cy="30" r="12" fill="url(#gGold)"/>
+    <g fill="#fff"><path d="M33.5 21v9.6a3 3 0 1 1-1.5-2.6V23.5l-6 1.3V32a3 3 0 1 1-1.5-2.6V23.4z" transform="translate(1.4 .6) scale(.9)"/></g>
+    <circle cx="30" cy="30" r="1.6" fill="#243B53"/>
+  </svg>
+</button>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+<div class="petals" id="petals" aria-hidden="true"></div>
+
+<!-- ===================================================================
+     MAIN APP
+     =================================================================== -->
+<main class="app" id="app">
+
+  <!-- ================= B. HERO ================= -->
+  <section class="hero" id="hero" aria-label="Pembuka">
+    <div class="stars" id="stars"></div>
+
+    <!-- Layer 1: bulan & awan -->
+    <div class="cloud c1"><svg viewBox="0 0 240 90"><use href="#cloud"/></svg></div>
+    <div class="cloud c2"><svg viewBox="0 0 240 90"><use href="#cloud"/></svg></div>
+    <div class="moon-wrap">
+      <svg viewBox="0 0 200 200" aria-hidden="true">
+        <circle cx="100" cy="100" r="100" fill="url(#gGlow)"/>
+        <circle cx="100" cy="100" r="84" fill="none" stroke="#FFE4EC" stroke-opacity=".45" stroke-width="1.2"/>
+        <circle cx="100" cy="100" r="92" fill="none" stroke="#FFE4EC" stroke-opacity=".25" stroke-width="1" stroke-dasharray="2 6"/>
+        <circle cx="100" cy="100" r="72" fill="url(#gMoon)"/>
+        <g fill="#F2B2C6" opacity=".35">
+          <circle cx="78" cy="78" r="12"/><circle cx="118" cy="68" r="7"/><circle cx="124" cy="112" r="14"/><circle cx="86" cy="124" r="8"/><circle cx="104" cy="92" r="4"/>
+        </g>
+        <g fill="#fff" opacity=".5"><circle cx="75" cy="74" r="5"/><circle cx="120" cy="107" r="6"/></g>
+        <path d="M44 72A60 60 0 0 1 90 40" stroke="#fff" stroke-opacity=".8" stroke-width="3" fill="none" stroke-linecap="round"/>
+        <g fill="#fff" class="glint"><path d="M170 36l2 7 7 2-7 2-2 7-2-7-7-2 7-2z"/><path d="M26 140l1.5 5 5 1.5-5 1.5-1.5 5-1.5-5-5-1.5 5-1.5z"/></g>
+      </svg>
+    </div>
+    <div class="cloud c3"><svg viewBox="0 0 240 90"><use href="#cloud"/></svg></div>
+    <div class="cloud c4"><svg viewBox="0 0 240 90"><use href="#cloud"/></svg></div>
+
+    <!-- Layer 3 (belakang): pepohonan -->
+    <div class="scene trees">
+      <svg viewBox="0 0 480 700" preserveAspectRatio="xMidYMax meet" aria-hidden="true">
+        <g id="treesL" opacity=".95">
+          <ellipse cx="14" cy="470" rx="28" ry="110" fill="#6F92AB"/>
+          <ellipse cx="62" cy="500" rx="24" ry="88" fill="#86A8BF"/>
+          <circle cx="108" cy="530" r="42" fill="#9DBBD0"/>
+          <circle cx="40" cy="560" r="46" fill="#7B9DB5"/>
+          <circle cx="86" cy="580" r="36" fill="#A9C5D8"/>
+          <ellipse cx="136" cy="560" rx="18" ry="58" fill="#8FAEC4"/>
+          <rect x="0" y="600" width="170" height="100" fill="#8FAEC4"/>
+        </g>
+        <use href="#treesL" transform="translate(480 0) scale(-1 1)"/>
+      </svg>
+    </div>
+
+    <!-- Layer 2: istana -->
+    <div class="scene palace">
+      <svg viewBox="0 0 480 700" preserveAspectRatio="xMidYMax meet" aria-hidden="true">
+        <!-- soft halo behind palace -->
+        <ellipse cx="240" cy="520" rx="260" ry="130" fill="url(#gGlow)" opacity=".55"/>
+        <!-- reflecting pool -->
+        <rect x="0" y="630" width="480" height="70" fill="url(#gPool)"/>
+        <g mask="url(#mReflect)" opacity=".8">
+          <g transform="translate(0 1260) scale(1 -1)"><g transform="translate(0 330)"><use href="#taj"/></g></g>
+        </g>
+        <g stroke="#fff" stroke-opacity=".5" stroke-width="1" fill="none">
+          <path d="M120 645q30 -4 60 0t60 0t60 0"/><path d="M90 662q40 -5 80 0t80 0t80 0t60 0"/><path d="M150 680q40 -4 80 0t80 0"/>
+        </g>
+        <!-- palace -->
+        <g transform="translate(0 330)"><use href="#taj"/></g>
+        <!-- pink/blue light wash -->
+        <g transform="translate(0 330)" opacity=".5" style="mix-blend-mode:screen">
+          <ellipse cx="240" cy="190" rx="120" ry="70" fill="#FFD6E4" opacity=".25" class="glint"/>
+          <ellipse cx="240" cy="230" rx="200" ry="60" fill="#A2CFFE" opacity=".18"/>
+        </g>
+      </svg>
+    </div>
+
+    <!-- mist -->
+    <div class="mist m3"></div><div class="mist m1"></div><div class="mist m2"></div>
+
+    <!-- Layer 3: eucalyptus sisi kiri-kanan -->
+    <div class="euc l"><svg id="eucL" viewBox="0 0 200 700" preserveAspectRatio="xMinYMin slice" aria-hidden="true"></svg></div>
+    <div class="euc r"><svg id="eucR" viewBox="0 0 200 700" preserveAspectRatio="xMinYMin slice" aria-hidden="true"></svg></div>
+
+    <!-- Layer 3: buket bunga -->
+    <div class="scene flowers"><svg id="bouquet" viewBox="0 0 480 700" preserveAspectRatio="xMidYMax meet" aria-hidden="true"></svg></div>
+
+    <!-- Layer 4: Mughal arch + judul -->
+    <div class="arch-frame">
+      <svg class="arch-svg" viewBox="0 0 300 480" aria-hidden="true">
+        <defs>
+          <linearGradient id="archFill" x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0" stop-color="#FFF5F8" stop-opacity=".93"/><stop offset=".55" stop-color="#FFF5F8" stop-opacity=".82"/><stop offset="1" stop-color="#EAF4FC" stop-opacity=".66"/>
+          </linearGradient>
+        </defs>
+        <!-- finial -->
+        <path d="M150 20V-2" stroke="#C98A9E" stroke-width="2.2" stroke-linecap="round"/>
+        <use href="#lotus" x="136" y="-26" width="28" height="28" style="--c:#F4A4B8;--c2:#D47A92"/>
+        <!-- outer arch -->
+        <path d="M6 478V216C6 150 58 108 98 84C124 68 142 46 150 14C158 46 176 68 202 84C242 108 294 150 294 216V478Z" fill="url(#archFill)" stroke="#C98A9E" stroke-width="4" stroke-linejoin="round"/>
+        <!-- inner light-blue line -->
+        <path d="M20 478V220C20 160 66 122 106 98C132 82 148 62 150 36C152 62 168 82 194 98C234 122 280 160 280 220V478Z" fill="none" stroke="#6C9BCF" stroke-width="2.4" stroke-linejoin="round"/>
+        <!-- inner rose-gold hairline + dotted trim -->
+        <path d="M30 478V224C30 168 72 132 112 108C136 93 150 74 150 50C150 74 164 93 188 108C228 132 270 168 270 224V478Z" fill="none" stroke="#C98A9E" stroke-width="1" stroke-dasharray="1.5 4" stroke-linecap="round"/>
+        <!-- cusped scallops -->
+        <g fill="none" stroke="#6C9BCF" stroke-width="1.2" stroke-opacity=".7">
+          <path d="M44 220q6 -26 22 -36"/><path d="M256 220q-6 -26 -22 -36"/>
+        </g>
+        <g fill="#C98A9E">
+          <circle cx="60" cy="150" r="2"/><circle cx="240" cy="150" r="2"/><circle cx="106" cy="100" r="2"/><circle cx="194" cy="100" r="2"/>
+          <circle cx="150" cy="40" r="2.4"/>
+        </g>
+        <!-- little blossoms along the arch -->
+        <use href="#blossom" x="46" y="112" width="26" height="26" style="--c:#A2CFFE;--c2:#6C9BCF"/>
+        <use href="#blossom" x="228" y="112" width="26" height="26" style="--c:#A2CFFE;--c2:#6C9BCF"/>
+        <use href="#rose" x="82" y="58" width="22" height="22" style="--c:#F4A4B8;--c2:#D47A92"/>
+        <use href="#rose" x="196" y="58" width="22" height="22" style="--c:#F4A4B8;--c2:#D47A92"/>
+        <!-- base band -->
+        <rect x="0" y="466" width="300" height="14" rx="3" fill="url(#gGold)"/>
+        <use href="#peony" x="-14" y="436" width="56" height="56" style="--c:#F4A4B8;--c2:#D47A92"/>
+        <use href="#peony" x="258" y="436" width="56" height="56" style="--c:#A2CFFE;--c2:#6C9BCF"/>
+      </svg>
+
+      <div class="arch-content">
+        <div class="h-small">The Wedding Of</div>
+        <div class="h-name" style="margin-top:10px">Riani</div>
+        <div class="h-amp">&amp;</div>
+        <div class="h-name">Rafly</div>
+        <div class="h-date">22 . 08 . 2027</div>
+        <div class="h-tag">#RianiRafly2027</div>
+        <div class="scroll-ico" aria-hidden="true"><div class="mouse"></div><small>Scroll</small></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- pembatas bunga Hero → Section 2 -->
+  <div class="divider"><svg id="garland" viewBox="0 0 480 110" preserveAspectRatio="none" aria-hidden="true"></svg></div>
+
+  <!-- ================= C. SECTION 2 ================= -->
+  <section class="sec" id="quote">
+    <div class="eyebrow reveal">Bismillahirrahmanirrahim</div>
+    <div class="arch-photo-wrap reveal zoom d1" style="margin-top:30px">
+      <div class="arch-border"><div class="inner"><div class="pic"><img class="photo" data-photo="3" alt="Riani dan Rafly" loading="lazy"></div></div></div>
+      <svg class="arch-flower a"><use href="#rose" style="--c:#F4A4B8;--c2:#D47A92"/></svg>
+      <svg class="arch-flower b"><use href="#peony" style="--c:#A2CFFE;--c2:#6C9BCF"/></svg>
+      <svg class="arch-flower c"><use href="#blossom" style="--c:#FFFDF9;--c2:#E5C3CE"/></svg>
+      <svg class="arch-flower d"><use href="#blossom" style="--c:#F4A4B8;--c2:#D47A92"/></svg>
+    </div>
+    <div class="quote-block">
+      <h2 class="title reveal">We Found Love</h2>
+      <div class="ornament reveal"><svg viewBox="-20 -20 40 40"><use href="#lotus" x="-20" y="-20" width="40" height="40" style="--c:#F4A4B8;--c2:#D47A92"/></svg></div>
+      <p class="ayat reveal d1">“Dan di antara tanda-tanda (kebesaran)-Nya ialah Dia menciptakan pasangan-pasangan untukmu dari jenismu sendiri, agar kamu cenderung dan merasa tenteram kepadanya, dan Dia menjadikan di antaramu rasa kasih dan sayang.”</p>
+      <div class="ayat-src reveal d2">Q.S Ar-Rum : 21</div>
+    </div>
+  </section>
+
+  <!-- ================= D. SECTION 3 ================= -->
+  <section class="sec" id="couple">
+    <div class="eyebrow reveal">Mempelai</div>
+    <h2 class="title script reveal d1">Bride &amp; Groom</h2>
+    <div class="ornament reveal"><svg viewBox="-20 -20 40 40"><use href="#lotus" x="-20" y="-20" width="40" height="40" style="--c:#A2CFFE;--c2:#6C9BCF"/></svg></div>
+
+    <article class="profile bride reveal">
+      <div class="pf-photo">
+        <div class="arch-border"><div class="inner"><div class="pic"><img class="photo" data-photo="1" alt="Siti Riani" loading="lazy"></div></div></div>
+        <svg class="arch-flower a" style="width:46px;height:46px"><use href="#peony" style="--c:#F4A4B8;--c2:#D47A92"/></svg>
+        <svg class="arch-flower b" style="width:42px;height:42px"><use href="#blossom" style="--c:#A2CFFE;--c2:#6C9BCF"/></svg>
+      </div>
+      <div class="role">The Bride</div>
+      <h3 class="pname">Siti Riani</h3>
+      <p class="pdesc">Putri dari<br><b>Almarhum Bapak Radi</b> &amp; <b>Ibu Sri Mulyati</b></p>
+    </article>
+
+    <div class="amp-between reveal">&amp;</div>
+
+    <article class="profile groom reveal">
+      <div class="pf-photo">
+        <div class="arch-border"><div class="inner"><div class="pic"><img class="photo" data-photo="2" alt="Muhamad Rafly Kristiadi" loading="lazy"></div></div></div>
+        <svg class="arch-flower a" style="width:46px;height:46px"><use href="#rose" style="--c:#A2CFFE;--c2:#6C9BCF"/></svg>
+        <svg class="arch-flower b" style="width:42px;height:42px"><use href="#blossom" style="--c:#F4A4B8;--c2:#D47A92"/></svg>
+      </div>
+      <div class="role">The Groom</div>
+      <h3 class="pname">Muhamad Rafly Kristiadi</h3>
+      <p class="pdesc">Putra dari<br><b>Bapak Ahyadi</b> &amp; <b>Ibu Ine Kristiati</b></p>
+    </article>
+  </section>
+
+  <!-- ================= E. SECTION 4 ================= -->
+  <section class="sec" id="event">
+    <div class="eyebrow reveal">Save The Date</div>
+    <h2 class="title reveal d1">Menuju Hari Bahagia</h2>
+    <div class="ornament reveal"><svg viewBox="-20 -20 40 40"><use href="#lotus" x="-20" y="-20" width="40" height="40" style="--c:#F4A4B8;--c2:#D47A92"/></svg></div>
+    <div class="countdown reveal" id="countdown" aria-live="off">
+      <div class="cd"><b id="cdD">00</b><span>Hari</span></div>
+      <div class="cd"><b id="cdH">00</b><span>Jam</span></div>
+      <div class="cd"><b id="cdM">00</b><span>Menit</span></div>
+      <div class="cd"><b id="cdS">00</b><span>Detik</span></div>
+    </div>
+    <p class="cd-note reveal" id="cdNote">Minggu, 22 Agustus 2027 · 08.00 WIB</p>
+
+    <div class="events">
+      <article class="ecard reveal">
+        <svg class="orn"><use href="#archOrn"/></svg>
+        <h3>Akad Nikah</h3>
+        <div class="erow"><svg viewBox="0 0 24 24"><rect x="3.5" y="5" width="17" height="15" rx="3"/><path d="M8 3v4M16 3v4M3.5 10h17"/></svg><div><small>Hari / Tanggal</small><p><strong>Minggu, 22 Agustus 2027</strong></p></div></div>
+        <div class="erow"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="8.5"/><path d="M12 7.5V12l3 2"/></svg><div><small>Waktu</small><p><strong>Pukul 08.00 WIB</strong></p></div></div>
+        <div class="erow"><svg viewBox="0 0 24 24"><path d="M12 21s-7-6.2-7-11.5a7 7 0 0 1 14 0C19 14.800 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg><div><small>Tempat</small><p><strong>Kediaman Rumah Riani</strong><br>Dusun 2, RT 001 RW 005, Desa Karangtengah, Kecamatan Karangsembung, Kabupaten Cirebon</p></div></div>
+      </article>
+
+      <article class="ecard reveal d1">
+        <svg class="orn"><use href="#archOrn"/></svg>
+        <h3>Resepsi</h3>
+        <div class="erow"><svg viewBox="0 0 24 24"><rect x="3.5" y="5" width="17" height="15" rx="3"/><path d="M8 3v4M16 3v4M3.5 10h17"/></svg><div><small>Hari / Tanggal</small><p><strong>Minggu, 22 Agustus 2027</strong></p></div></div>
+        <div class="erow"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="8.5"/><path d="M12 7.5V12l3 2"/></svg><div><small>Waktu</small><p><strong>Pukul 09.00 WIB s/d Selesai</strong></p></div></div>
+        <div class="erow"><svg viewBox="0 0 24 24"><path d="M12 21s-7-6.2-7-11.5a7 7 0 0 1 14 0C19 14.800 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg><div><small>Tempat</small><p><strong>Kediaman Rumah Riani</strong><br>Dusun 2, RT 001 RW 005, Desa Karangtengah, Kecamatan Karangsembung, Kabupaten Cirebon</p></div></div>
+      </article>
+    </div>
+
+    <a class="map-btn reveal" href="https://maps.app.goo.gl/cxEMKvLJK7U7qGkp8?g_st=ac" target="_blank" rel="noopener">
+      <svg viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s-7-6.2-7-11.5a7 7 0 0 1 14 0C19 14.800 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg>
+      Buka Google Maps
+    </a>
+  </section>
+
+  <!-- ================= F. SECTION 5 ================= -->
+  <section class="sec" id="gallery">
+    <div class="eyebrow reveal">Our Moments</div>
+    <h2 class="title script reveal d1">Galeri Foto</h2>
+    <div class="ornament reveal"><svg viewBox="-20 -20 40 40"><use href="#lotus" x="-20" y="-20" width="40" height="40" style="--c:#A2CFFE;--c2:#6C9BCF"/></svg></div>
+    <div class="grid" id="grid">
+      <button class="g-item reveal" type="button" data-i="0" aria-label="Perbesar foto 1">
+        <div class="arch-border"><div class="inner"><div class="pic"><img class="photo" data-photo="4" alt="Riani dan Rafly di taman" loading="lazy"></div></div></div>
+        <svg class="arch-flower a"><use href="#rose" style="--c:#F4A4B8;--c2:#D47A92"/></svg>
+        <svg class="arch-flower b"><use href="#blossom" style="--c:#A2CFFE;--c2:#6C9BCF"/></svg>
+      </button>
+      <button class="g-item reveal d1" type="button" data-i="1" aria-label="Perbesar foto 2">
+        <div class="arch-border"><div class="inner"><div class="pic"><img class="photo" data-photo="3" alt="Riani dan Rafly" loading="lazy"></div></div></div>
+        <svg class="arch-flower a"><use href="#blossom" style="--c:#A2CFFE;--c2:#6C9BCF"/></svg>
+        <svg class="arch-flower b"><use href="#peony" style="--c:#F4A4B8;--c2:#D47A92"/></svg>
+      </button>
+      <button class="g-item reveal" type="button" data-i="2" aria-label="Perbesar foto 3">
+        <div class="arch-border"><div class="inner"><div class="pic"><img class="photo" data-photo="2" alt="Rafly di antara bunga bougenville" loading="lazy"></div></div></div>
+        <svg class="arch-flower a"><use href="#peony" style="--c:#A2CFFE;--c2:#6C9BCF"/></svg>
+        <svg class="arch-flower b"><use href="#rose" style="--c:#F4A4B8;--c2:#D47A92"/></svg>
+      </button>
+      <button class="g-item reveal d1" type="button" data-i="3" aria-label="Perbesar foto 4">
+        <div class="arch-border"><div class="inner"><div class="pic"><img class="photo" data-photo="1" alt="Riani di kafe hutan pinus" loading="lazy"></div></div></div>
+        <svg class="arch-flower a"><use href="#rose" style="--c:#A2CFFE;--c2:#6C9BCF"/></svg>
+        <svg class="arch-flower b"><use href="#blossom" style="--c:#F4A4B8;--c2:#D47A92"/></svg>
+      </button>
+    </div>
+    <div class="g-hint reveal">Ketuk foto untuk memperbesar</div>
+  </section>
+
+  <!-- ================= G. SECTION 6 ================= -->
+  <section class="sec" id="gift">
+    <div class="eyebrow reveal">Tanda Kasih</div>
+    <h2 class="title reveal d1">Wedding Gift</h2>
+    <div class="ornament reveal"><svg viewBox="-20 -20 40 40"><use href="#lotus" x="-20" y="-20" width="40" height="40" style="--c:#F4A4B8;--c2:#D47A92"/></svg></div>
+    <p class="lead reveal">Doa restu Bapak/Ibu/Saudara/i merupakan hadiah terindah bagi kami. Namun jika berkenan memberikan tanda kasih secara digital, dapat melalui amplop digital berikut. Terima kasih atas ketulusan dan perhatiannya.</p>
+
+    <div class="cards">
+      <div class="atm-wrap reveal">
+        <div class="atm bank">
+          <div class="atm-top"><div class="brand">Bank <em>Mandiri</em></div><div class="atm-type">Transfer Bank</div></div>
+          <div class="chip-row">
+            <svg class="chip" viewBox="0 0 42 32"><rect width="42" height="32" rx="6" fill="url(#gGold)" stroke="#fff" stroke-opacity=".7"/><path d="M0 11h42M0 21h42M15 0v32M27 0v32" stroke="#fff" stroke-opacity=".55" fill="none"/><rect x="15" y="11" width="12" height="10" rx="2" fill="none" stroke="#fff" stroke-opacity=".7"/></svg>
+            <svg class="nfc" viewBox="0 0 24 24"><path d="M7 8c2.500 2.500 2.500 5.500 0 8M11 5.500c4 3.500 4 9.500 0 13M15 3c5.500 4.500 5.500 13.500 0 18"/></svg>
+          </div>
+          <div class="num" id="numBank">4617 0013 2007 3633</div>
+          <div class="holder"><small>Atas Nama</small><b>Muhamad Rafly Kristiadi</b></div>
+        </div>
+        <button class="copy-btn" type="button" data-copy="4617001320073633" data-toast="Nomor rekening Bank Mandiri berhasil disalin!">
+          <svg viewBox="0 0 24 24"><rect x="8.500" y="8.500" width="12" height="12" rx="2.500"/><path d="M15.500 8.500V6A2.500 2.500 0 0 0 13 3.500H6A2.500 2.500 0 0 0 3.500 6v7A2.500 2.500 0 0 0 6 15.500h2.500"/></svg>
+          <span>Salin No. Rekening</span>
+        </button>
+      </div>
+
+      <div class="atm-wrap reveal d1">
+        <div class="atm dana">
+          <div class="atm-top"><div class="brand dn">DANA</div><div class="atm-type">E-Wallet</div></div>
+          <div class="chip-row">
+            <svg class="chip" viewBox="0 0 42 32"><rect width="42" height="32" rx="6" fill="url(#gGold)" stroke="#fff" stroke-opacity=".7"/><path d="M0 11h42M0 21h42M15 0v32M27 0v32" stroke="#fff" stroke-opacity=".55" fill="none"/><rect x="15" y="11" width="12" height="10" rx="2" fill="none" stroke="#fff" stroke-opacity=".7"/></svg>
+            <svg class="nfc" viewBox="0 0 24 24"><path d="M7 8c2.500 2.500 2.500 5.500 0 8M11 5.500c4 3.500 4 9.500 0 13M15 3c5.500 4.500 5.500 13.500 0 18"/></svg>
+          </div>
+          <div class="num" id="numDana">0813 9596 8281</div>
+          <div class="holder"><small>Atas Nama</small><b>Muhamad Rafly Kristiadi</b></div>
+        </div>
+        <button class="copy-btn" type="button" data-copy="081395968281" data-toast="Nomor DANA berhasil disalin!">
+          <svg viewBox="0 0 24 24"><rect x="8.500" y="8.500" width="12" height="12" rx="2.500"/><path d="M15.500 8.500V6A2.500 2.500 0 0 0 13 3.500H6A2.500 2.500 0 0 0 3.500 6v7A2.500 2.500 0 0 0 6 15.500h2.500"/></svg>
+          <span>Salin Nomor DANA</span>
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= H. SECTION 7 ================= -->
+  <section class="sec" id="rsvp">
+    <div class="eyebrow reveal">RSVP</div>
+    <h2 class="title reveal d1">Ucapan &amp; Doa</h2>
+    <div class="ornament reveal"><svg viewBox="-20 -20 40 40"><use href="#lotus" x="-20" y="-20" width="40" height="40" style="--c:#A2CFFE;--c2:#6C9BCF"/></svg></div>
+    <p class="lead reveal">Merupakan kebahagiaan bagi kami apabila Anda berkenan hadir dan memberikan doa restu. Mohon konfirmasi kehadiran Anda.</p>
+
+    <form class="form reveal" id="rsvpForm" novalidate autocomplete="off">
+      <div class="field" id="fName">
+        <label class="l" for="inName">Nama</label>
+        <input type="text" id="inName" maxlength="60" placeholder="Nama lengkap Anda">
+        <div class="err">Mohon isi nama Anda.</div>
+      </div>
+      <div class="field" id="fAtt">
+        <span class="l" style="display:block;font-family:var(--sans);font-size:10.5px;letter-spacing:.22em;text-transform:uppercase;color:var(--dusty-blue);font-weight:600;margin-bottom:8px">Konfirmasi Kehadiran</span>
+        <div class="radios">
+          <input type="radio" name="att" id="attY" value="Hadir" checked><label class="yes" for="attY">✓ Hadir</label>
+          <input type="radio" name="att" id="attN" value="Tidak Hadir"><label class="no" for="attN">✕ Tidak Hadir</label>
+        </div>
+      </div>
+      <div class="field" id="fGuests">
+        <label class="l" for="inGuests">Jumlah Tamu</label>
+        <select id="inGuests"><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option></select>
+      </div>
+      <div class="field" id="fMsg">
+        <label class="l" for="inMsg">Ucapan &amp; Doa Restu</label>
+        <textarea id="inMsg" maxlength="500" placeholder="Tuliskan ucapan dan doa terbaik Anda…"></textarea>
+        <div class="err">Mohon tulis ucapan atau doa Anda.</div>
+      </div>
+      <button class="submit" type="submit" id="submitBtn">Kirim Ucapan</button>
+    </form>
+
+    <div class="wish-head reveal"><h3>Ucapan Tamu</h3><span class="badge" id="wishCount">0</span></div>
+    <div class="stats reveal"><span id="stYes">Hadir: 0</span><span id="stNo">Tidak Hadir: 0</span></div>
+    <div class="wishes" id="wishes"></div>
+  </section>
+
+  <!-- ================= FOOTER ================= -->
+  <footer class="footer">
+    <p class="reveal">Merupakan suatu kehormatan dan kebahagiaan bagi kami apabila Bapak/Ibu/Saudara/i berkenan hadir dan memberikan doa restu. Atas kehadiran dan doa restunya, kami ucapkan terima kasih.</p>
+    <div class="f-small reveal">Kami yang berbahagia</div>
+    <div class="f-names reveal d1">Riani &amp; Rafly</div>
+    <div class="f-hash reveal d2">#RianiRafly2027</div>
+  </footer>
+</main>
+
+<!-- Alat Bagikan Undangan (?bagikan=1) -->
+<section class="app share-tool" id="shareTool" aria-label="Buat Link Undangan">
+  <div style="text-align:center">
+    <div class="eyebrow">Khusus Pengantin</div>
+    <h2 class="title" style="font-size:32px">Bagikan Undangan</h2>
+    <p class="lead">Tulis nama teman atau keluarga (boleh banyak sekaligus, 1 nama per baris) lalu langsung kirim ke WhatsApp atau salin link-nya.</p>
+  </div>
+  <div class="share-card">
+    <label for="shBase">Link Web App Undangan Anda (/exec)</label>
+    <input type="url" id="shBase" placeholder="https://script.google.com/macros/s/.../exec">
+    <label for="shNames">Daftar Nama Tamu (1 nama per baris)</label>
+    <textarea id="shNames" placeholder="Budi Santoso&#10;Keluarga Besar Pak Ahmad&#10;Rina &amp; Pasangan">Budi Santoso
+Keluarga Besar Pak Ahmad
+Rina &amp; Pasangan</textarea>
+    <label for="shTpl">Template Pesan WhatsApp</label>
+    <textarea id="shTpl" style="min-height:170px">Bismillahirrahmanirrahim.
+Assalamu'alaikum Warahmatullahi Wabarakatuh.
+
+Kepada Yth. *{NAMA}*,
+Tanpa mengurangi rasa hormat, kami mengundang Anda untuk menghadiri dan memberikan doa restu pada acara pernikahan kami:
+
+*Siti Riani &amp; Muhamad Rafly Kristiadi*
+📅 Minggu, 22 Agustus 2027
+📍 Kediaman Rumah Riani (Desa Karangtengah, Kec. Karangsembung, Kab. Cirebon)
+
+Buka undangan digital &amp; konfirmasi kehadiran:
+👉 {LINK}
+
+Merupakan kehormatan bagi kami apabila Anda berkenan hadir.
+Wassalamu'alaikum Warahmatullahi Wabarakatuh.
+*Riani &amp; Rafly*</textarea>
+  </div>
+  <div class="share-list" id="shList"></div>
+</section>
+
+<!-- Lightbox -->
+<div class="lightbox" id="lightbox" aria-hidden="true" role="dialog" aria-label="Pratinjau foto">
+  <button class="lb-btn lb-close" id="lbClose" type="button" aria-label="Tutup">✕</button>
+  <button class="lb-btn lb-prev" id="lbPrev" type="button" aria-label="Sebelumnya">‹</button>
+  <img id="lbImg" alt="">
+  <button class="lb-btn lb-next" id="lbNext" type="button" aria-label="Berikutnya">›</button>
+  <div class="lb-count" id="lbCount"></div>
+</div>
+
+<script>
+/* =====================================================================
+   KONFIGURASI ASET — folder Google Drive `wedding_Riani&Rafly`
+   ---------------------------------------------------------------------
+   • Hosting statis  : letakkan folder `wedding_Riani&Rafly/` di samping file ini
+                       (path lokal dicoba lebih dulu), lalu otomatis fallback ke
+                       direct-link Google Drive (ID file di bawah).
+   • Google Apps Script: `Code.gs` → getAssets() menimpa URL ini secara otomatis
+                       (DriveApp.getFoldersByName('wedding_Riani&Rafly')).
+   ===================================================================== */
+const CONFIG = {
+  folder: 'wedding_Riani&Rafly',
+  images: {
+    1: { id: '17q80u9P_U2S3Banar3yPmkpxKsnyVEPo', path: 'wedding_Riani&Rafly/1.jpeg' }, // Siti Riani (solo)
+    2: { id: '1k6moLg16Kn39GO91e2eSLebYj5JiHZ43', path: 'wedding_Riani&Rafly/2.jpeg' }, // Rafly (solo, bougenville)
+    3: { id: '1jHAHlDGTPj-9tIsaIaf3XVN4Ai1EYLoT', path: 'wedding_Riani&Rafly/3.jpeg' }, // berdua (medium shot)
+    4: { id: '1RpNuK2g_e1yZUYYE1N-XZhkSEe0yr67i', path: 'wedding_Riani&Rafly/4.jpeg' }  // berdua (taman) → cover
+  },
+  audio: { id: '1YdkRxbq2cqj02zKHdMCqDaUFgQvpfkfx', path: 'wedding_Riani&Rafly/music/romantis.mp3' },
+  weddingDate: '2027-08-22T08:00:00+07:00',
+  // Opsional (hosting statis + Google Sheets): isi dengan URL Web App Apps Script (…/exec)
+  endpoint: 'https://script.google.com/macros/s/AKfycbypdc2HNNkwTe7XbHKoDo60eXrmd1Mo4VL9RE2OF6wbC62jiHDNRlogbf-OhRepX4Pt/exec',
+  storageKey: 'wedding_riani_rafly_rsvp_v1'
+};
+
+(function(){
+'use strict';
+const $  = (s,r=document)=>r.querySelector(s);
+const $$ = (s,r=document)=>Array.from(r.querySelectorAll(s));
+const SVGNS='http://www.w3.org/2000/svg';
+const hasGAS = typeof google!=='undefined' && google.script && google.script.run;
+
+/* ---------- foto: coba path lokal → direct link Drive ---------- */
+const driveImg = id => 'https://lh3.googleusercontent.com/d/'+id;
+const driveAudio = id => 'https://docs.google.com/uc?export=download&id='+id;
+const extraSrc = {};            // URL dari Apps Script (prioritas tertinggi)
+function photoSources(n){
+  const c = CONFIG.images[n]||{}, out=[];
+  if(extraSrc[n]) out.push(extraSrc[n]);
+  if(!hasGAS && c.path) out.push(c.path);
+  if(c.id) out.push(driveImg(c.id));
+  if(hasGAS && c.path) out.push(c.path);
+  return out;
+}
+function loadPhoto(img){
+  const n=img.dataset.photo, srcs=photoSources(n); let i=0;
+  img.classList.remove('broken');
+  img.onerror=()=>{ i++; if(i<srcs.length) img.src=srcs[i]; else { img.onerror=null; img.classList.add('broken'); } };
+  if(srcs.length) img.src=srcs[0]; else img.classList.add('broken');
+}
+const loadAllPhotos = ()=> $$('img[data-photo]').forEach(loadPhoto);
+
+/* ---------- audio ---------- */
+const audio=$('#bgMusic'), musicBtn=$('#musicBtn');
+const SILENT_WAV='data:audio/wav;base64,UklGRigAAABXQVZFZm10IBIAAAABAAEARKwAAIhYAQACABAAAABkYXRhAgAAAAEA';
+function audioSources(){
+  const a=CONFIG.audio, out=[];
+  if(extraSrc.audio) out.push(extraSrc.audio);
+  if(!hasGAS && a.path) out.push(a.path);
+  if(a.id && !hasGAS) out.push(driveAudio(a.id));
+  if(hasGAS && a.path) out.push(a.path);
+  return out;
+}
+let aSrcs=[], aIdx=0, wantPlay=false, audioLoading=false, audioReady=false, unlocked=false;
+function setPlaying(p){ musicBtn.classList.toggle('paused',!p); }
+function playMusic(){
+  if(!audioReady && audioLoading){
+    if(!unlocked){ unlocked=true; audio.loop=false; audio.src=SILENT_WAV; audio.play().catch(()=>{}); }
+    return;
+  }
+  audio.loop=true;
+  audio.volume=.85;
+  audio.play().catch(()=>{
+    setPlaying(false);
+    if(opened && audioReady) toast('Ketuk ikon musik di kanan bawah untuk memutar lagu.');
+  });
+}
+function setupAudio(){
+  aSrcs=audioSources(); aIdx=0;
+  if(aSrcs.length){
+    audioReady=true;
+    audio.loop=true;
+    audio.src=aSrcs[0];
+    if(wantPlay) playMusic();
+  }
+}
+function b64ToBytes(b64){
+  const bin=atob(b64), arr=new Uint8Array(bin.length);
+  for(let i=0;i<bin.length;i++) arr[i]=bin.charCodeAt(i);
+  return arr;
+}
+function loadGasAudio(chunks, mime){
+  if(!chunks||!hasGAS) return;
+  audioLoading=true;
+  const reqs=Array.from({length:chunks},(_,i)=>new Promise((res,rej)=>
+    google.script.run.withSuccessHandler(res).withFailureHandler(rej).getAudioChunk(i)
+  ));
+  Promise.all(reqs).then(parts=>{
+    const valid=parts.filter(Boolean);
+    if(!valid.length) throw new Error('Audio kosong');
+    const blob=new Blob(valid.map(b64ToBytes),{type:mime||'audio/mpeg'});
+    extraSrc.audio=URL.createObjectURL(blob);
+    audioLoading=false;
+    setupAudio();
+  }).catch(()=>{
+    audioLoading=false;
+    if(wantPlay) toast('Musik gagal dimuat dari Drive.');
+  });
+}
+audio.addEventListener('error',()=>{
+  if(!audioReady) return;
+  if(aIdx<aSrcs.length-1){ aIdx++; audio.src=aSrcs[aIdx]; audio.load(); if(wantPlay) playMusic(); }
+});
+audio.addEventListener('play',()=>{ if(audioReady) setPlaying(true); });
+audio.addEventListener('pause',()=>{ if(audioReady) setPlaying(false); });
+musicBtn.addEventListener('click',()=>{
+  if(!audioReady && audioLoading){ wantPlay=true; playMusic(); toast('Sedang memuat musik…'); return; }
+  if(audio.paused){ wantPlay=true; playMusic(); }
+  else { wantPlay=false; audio.pause(); }
+});
+document.addEventListener('visibilitychange',()=>{
+  if(document.hidden){ if(audioReady && !audio.paused){ audio.pause(); resumeLater=true; } }
+  else if(resumeLater){ resumeLater=false; playMusic(); }
+});
+let resumeLater=false;
+
+/* ---------- toast ---------- */
+const toastEl=$('#toast'); let toastT;
+function toast(msg){ toastEl.textContent=msg; toastEl.classList.add('show'); clearTimeout(toastT); toastT=setTimeout(()=>toastEl.classList.remove('show'),2600); }
+
+/* ---------- nama tamu ---------- */
+function setGuest(name){ name=(name||'').replace(/\s+/g,' ').trim(); if(name) $('#guestName').textContent=name.slice(0,60); }
+setGuest(new URLSearchParams(location.search).get('to'));
+if(hasGAS && google.script.url && google.script.url.getLocation){
+  google.script.url.getLocation(loc=>{ if(loc && loc.parameter && loc.parameter.to) setGuest([].concat(loc.parameter.to)[0]); });
+}
+
+/* ---------- partikel: bintang, kelopak ---------- */
+(function stars(){
+  const wrap=$('#stars'); let h='';
+  for(let i=0;i<46;i++){
+    const s=Math.random()*2.4+1.2;
+    h+=`<i class="star" style="left:${Math.random()*100}%;top:${Math.random()*100}%;width:${s}px;height:${s}px;animation-delay:${(Math.random()*3).toFixed(2)}s;animation-duration:${(2+Math.random()*3).toFixed(2)}s"></i>`;
+  }
+  wrap.innerHTML=h;
+})();
+function makePetals(el,n){
+  let h='';
+  for(let i=0;i<n;i++){
+    const sz=8+Math.random()*10;
+    h+=`<i class="petal ${i%3===0?'b':''}" style="left:${Math.random()*100}%;width:${sz}px;height:${sz*1.15}px;animation-duration:${(9+Math.random()*9).toFixed(1)}s;animation-delay:${(Math.random()*-14).toFixed(1)}s"></i>`;
+  }
+  el.insertAdjacentHTML('beforeend',h);
+}
+makePetals($('#coverFx'),14);
+
+/* ---------- SVG generator: bunga, eucalyptus, garland ---------- */
+const PAL={
+  pink:['#F4A4B8','#D47A92'], dusty:['#D47A92','#B25D77'], blue:['#A2CFFE','#6C9BCF'],
+  ivory:['#FFFDF9','#E3BFCB'], cream:['#FBE9D6','#E0BE9F'], blush:['#FADADD','#E09CB0'], sky:['#D6EAF8','#8FB6DC']
+};
+const flower=(type,x,y,s,pal,rot=0)=>{ const p=PAL[pal]; return `<use href="#${type}" x="${(x-s/2).toFixed(1)}" y="${(y-s/2).toFixed(1)}" width="${s}" height="${s}" style="--c:${p[0]};--c2:${p[1]}"${rot?` transform="rotate(${rot} ${x} ${y})"`:''}/>`; };
+const EUC=['#8FAEC4','#7C9DB6','#A3BED2','#9AB6CB','#86A6BD'];
+const bez=(P,t)=>{const u=1-t;return{
+  x:u*u*u*P[0]+3*u*u*t*P[2]+3*u*t*t*P[4]+t*t*t*P[6],
+  y:u*u*u*P[1]+3*u*u*t*P[3]+3*u*t*t*P[5]+t*t*t*P[7],
+  dx:3*u*u*(P[2]-P[0])+6*u*t*(P[4]-P[2])+3*t*t*(P[6]-P[4]),
+  dy:3*u*u*(P[3]-P[1])+6*u*t*(P[5]-P[3])+3*t*t*(P[7]-P[5])};};
+function branch(P,n,scale=1,seed=0){
+  let o=`<path d="M${P[0]} ${P[1]}C${P[2]} ${P[3]} ${P[4]} ${P[5]} ${P[6]} ${P[7]}" fill="none" stroke="#6F8FA6" stroke-width="${2.4*scale}" stroke-linecap="round"/>`;
+  for(let i=1;i<=n;i++){
+    const t=i/n, p=bez(P,t), th=Math.atan2(p.dy,p.dx)*180/Math.PI+90;
+    const k=(1.15-0.55*t)*scale, c1=EUC[(i+seed)%5], c2=EUC[(i+seed+2)%5];
+    o+=`<use href="#eleaf" transform="translate(${p.x.toFixed(1)} ${p.y.toFixed(1)}) rotate(${(th-58).toFixed(1)}) scale(${k.toFixed(2)})" style="--lc:${c1}"/>`;
+    o+=`<use href="#eleaf" transform="translate(${p.x.toFixed(1)} ${p.y.toFixed(1)}) rotate(${(th+58).toFixed(1)}) scale(${(k*.95).toFixed(2)})" style="--lc:${c2}"/>`;
+    if(i%2===0) o+=`<use href="#sleaf" transform="translate(${p.x.toFixed(1)} ${p.y.toFixed(1)}) rotate(${(th+(i%4?18:-18)).toFixed(1)}) scale(${(k*.8).toFixed(2)})" style="--lc:#B4CADB"/>`;
+  }
+  const e=bez(P,1), th=Math.atan2(e.dy,e.dx)*180/Math.PI+90;
+  o+=`<use href="#eleaf" transform="translate(${e.x.toFixed(1)} ${e.y.toFixed(1)}) rotate(${th.toFixed(1)}) scale(${(.7*scale).toFixed(2)})" style="--lc:#7C9DB6"/>`;
+  return o;
+}
+function buildEuc(el){
+  el.innerHTML =
+    branch([-14,-10, 96,110, 18,250, 84,430],15,1,0) +
+    branch([-14,40, 70,160, 76,300, 40,520],12,.9,2) +
+    branch([-14,-14, 130,40, 160,150, 126,262],10,.85,1) +
+    branch([-14,120, 40,200, 30,340, 8,430],7,.7,3) +
+    flower('blossom',58,196,24,'blush') + flower('blossom',92,330,20,'sky') + flower('rose',26,420,22,'pink');
+}
+buildEuc($('#eucL')); buildEuc($('#eucR'));
+
+/* Dekorasi bunga sampul (atas & bawah) */
+(function coverDeco(){
+  const sw={pink:'blue',blue:'pink',dusty:'sky',ivory:'cream',cream:'ivory',sky:'dusty',blush:'sky'};
+  const P=(p,m)=>m?sw[p]:p;
+  const mirror=s=>`<g transform="translate(480 0) scale(-1 1)">${s}</g>`;
+  const top=m=>
+    branch([-12,-10, 46,44, 8,120, 36,214],9,.85,1)+
+    branch([-12,-8, 70,16, 112,50, 128,104],7,.75,2)+
+    flower('peony',30,34,76,P('pink',m))+flower('rose',92,18,56,P('blue',m))+flower('blossom',14,108,34,P('ivory',m))+
+    flower('rose',58,84,44,P('dusty',m))+flower('blossom',120,52,30,P('cream',m))+flower('blossom',30,148,26,P('sky',m));
+  $('#cvTop').innerHTML=top(false)+mirror(top(true));
+  const bot=m=>
+    branch([-12,232, 30,150, 90,130, 150,118],8,.9,1)+
+    branch([-12,232, 20,170, 30,110, 52,58],7,.8,2)+
+    flower('peony',40,188,76,P('pink',m))+flower('rose',108,206,58,P('blue',m))+flower('blossom',18,128,34,P('ivory',m))+
+    flower('rose',70,150,46,P('dusty',m))+flower('blossom',144,184,32,P('cream',m))+flower('blossom',150,146,26,P('sky',m))+
+    flower('peony',8,214,52,P('ivory',m))+flower('blossom',178,212,26,P('blush',m));
+  const mid=flower('blossom',216,214,28,'ivory')+flower('rose',246,216,32,'blush')+flower('blossom',278,214,26,'sky');
+  $('#cvBot').innerHTML=bot(false)+mirror(bot(true))+mid;
+})();
+
+/* Bouquet di tepi bawah (kiri & kanan, cermin) */
+(function bouquet(){
+  const L=[
+    ['peony',66,640,92,'pink'],['rose',138,664,68,'dusty'],['rose',28,584,62,'blue'],['blossom',104,590,42,'ivory'],
+    ['peony',20,684,74,'ivory'],['rose',96,694,58,'blue'],['blossom',160,602,34,'sky'],['rose',190,690,50,'pink'],
+    ['blossom',212,672,32,'cream'],['peony',158,636,56,'blush'],['blossom',44,640,28,'cream']
+  ];
+  const swap={pink:'blue',blue:'pink',dusty:'sky',ivory:'cream',cream:'ivory',sky:'dusty',blush:'sky'};
+  let s='';
+  const sprays=(mx)=>{
+    let o='';
+    const base=[[40,712],[110,712],[170,712]];
+    const angs=[-98,-78,-58,-40,-22,-8];
+    angs.forEach((a,k)=>{
+      const [bx,by]=base[k%3], len=96+((k*23)%46), r=a*Math.PI/180;
+      const ex=bx+Math.cos(r)*len, ey=by+Math.sin(r)*len;
+      const cx=(bx+ex)/2+ (k%2?-14:14), cy=(by+ey)/2;
+      const P=[bx,by,cx,cy+10,cx,cy-10,ex,ey];
+      o+=branch(P,5,.9,k);
+    });
+    return o;
+  };
+  let left=sprays()+L.map(f=>flower(f[0],f[1],f[2],f[3],f[4])).join('');
+  let right=sprays()+L.map(f=>flower(f[0],f[1],f[2],f[3],swap[f[4]])).join('');
+  s+=`<g>${left}</g><g transform="translate(480 0) scale(-1 1)">${right}</g>`;
+  // bunga kecil menyusuri tepi bawah tengah
+  const mid=[['blossom',236,696,30,'ivory'],['blossom',270,700,26,'pink'],['blossom',206,702,24,'sky'],['rose',250,708,34,'blush']];
+  s+=mid.map(f=>flower(f[0],f[1],f[2],f[3],f[4])).join('');
+  $('#bouquet').innerHTML=s;
+})();
+
+/* Garland pembatas Hero → Section 2 */
+(function garland(){
+  const W=480, n=30; let leaves='', fl='';
+  for(let i=0;i<=n;i++){
+    const x=i*W/n, y=58+Math.sin(i*.62)*9, a=(i%2?-62:62)+Math.sin(i)*14;
+    leaves+=`<use href="#eleaf" transform="translate(${x.toFixed(1)} ${y.toFixed(1)}) rotate(${a.toFixed(0)}) scale(${(.95+.25*Math.sin(i*1.3)).toFixed(2)})" style="--lc:${EUC[i%5]}"/>`;
+    leaves+=`<use href="#sleaf" transform="translate(${(x+8).toFixed(1)} ${(y+4).toFixed(1)}) rotate(${(-a*.6+180).toFixed(0)}) scale(.9)" style="--lc:#B4CADB"/>`;
+  }
+  const seq=[['peony','pink',54],['blossom','blue',34],['rose','dusty',44],['blossom','ivory',32],['peony','blue',50],['rose','pink',42],['blossom','cream',30],['rose','blue',46]];
+  for(let i=0;i<10;i++){
+    const f=seq[i%seq.length], x=24+i*(W-48)/9, y=56+Math.sin(i*1.9)*12;
+    fl+=flower(f[0],x,y,f[2]+(i%3)*6,f[1],(i*37)%360);
+    if(i<9){ const m=seq[(i+3)%seq.length]; fl+=flower('blossom',x+(W-48)/18,y+(i%2?-18:20),22,m[1]==='blue'?'pink':'blue'); }
+  }
+  $('#garland').innerHTML=`<path d="M0 58 ${Array.from({length:n},(_,i)=>`L${((i+1)*W/n).toFixed(1)} ${(58+Math.sin((i+1)*.62)*9).toFixed(1)}`).join(' ')}" fill="none" stroke="#6F8FA6" stroke-width="2.2"/>${leaves}${fl}`;
+})();
+
+/* ---------- scroll reveal ---------- */
+const io=new IntersectionObserver(es=>es.forEach(e=>{ if(e.isIntersecting){ e.target.classList.add('in'); io.unobserve(e.target);} }),{threshold:.14,rootMargin:'0px 0px -6% 0px'});
+$$('.reveal').forEach(el=>io.observe(el));
+
+/* ---------- buka undangan ---------- */
+let opened=false;
+function openInvitation(){
+  if(opened) return; opened=true;
+  document.body.classList.remove('locked'); document.body.classList.add('opened');
+  window.scrollTo(0,0);
+  $('#cover').classList.add('open');
+  $('#hero').classList.add('play');
+  musicBtn.classList.add('show');
+  wantPlay=true;
+  playMusic();
+  makePetals($('#petals'),12);
+  setTimeout(()=>{ $('#cover').style.display='none'; },1600);
+}
+$('#openBtn').addEventListener('click',openInvitation);
+
+/* ---------- countdown ---------- */
+const target=new Date(CONFIG.weddingDate).getTime();
+const els={d:$('#cdD'),h:$('#cdH'),m:$('#cdM'),s:$('#cdS')}; const last={};
+const pad=n=>String(n).padStart(2,'0');
+function tick(){
+  let diff=target-Date.now();
+  if(diff<=0){ Object.values(els).forEach(e=>e.textContent='00'); $('#cdNote').textContent='Hari bahagia telah tiba — terima kasih atas doa restu Anda 💕'; return; }
+  const v={d:Math.floor(diff/864e5),h:Math.floor(diff%864e5/36e5),m:Math.floor(diff%36e5/6e4),s:Math.floor(diff%6e4/1e3)};
+  for(const k in v){ const t=k==='d'?String(v[k]).padStart(2,'0'):pad(v[k]); if(last[k]!==t){ els[k].textContent=t; last[k]=t; els[k].classList.remove('tick'); void els[k].offsetWidth; els[k].classList.add('tick'); } }
+}
+tick(); setInterval(tick,1000);
+
+/* ---------- lightbox ---------- */
+const lb=$('#lightbox'), lbImg=$('#lbImg'); let lbI=0;
+const gItems=$$('.g-item');
+function showLb(i){ lbI=(i+gItems.length)%gItems.length; const im=$('img',gItems[lbI]); lbImg.src=im.currentSrc||im.src; lbImg.alt=im.alt; $('#lbCount').textContent=(lbI+1)+' / '+gItems.length; }
+function openLb(i){ showLb(i); lb.classList.add('open'); lb.setAttribute('aria-hidden','false'); document.body.style.overflow='hidden'; }
+function closeLb(){ lb.classList.remove('open'); lb.setAttribute('aria-hidden','true'); document.body.style.overflow=''; }
+gItems.forEach((g,i)=>g.addEventListener('click',()=>openLb(i)));
+$('#lbClose').addEventListener('click',closeLb);
+$('#lbPrev').addEventListener('click',e=>{e.stopPropagation();showLb(lbI-1)});
+$('#lbNext').addEventListener('click',e=>{e.stopPropagation();showLb(lbI+1)});
+lb.addEventListener('click',e=>{ if(e.target===lb) closeLb(); });
+document.addEventListener('keydown',e=>{ if(!lb.classList.contains('open')) return; if(e.key==='Escape')closeLb(); if(e.key==='ArrowLeft')showLb(lbI-1); if(e.key==='ArrowRight')showLb(lbI+1); });
+let tx=0; lb.addEventListener('touchstart',e=>{tx=e.touches[0].clientX},{passive:true});
+lb.addEventListener('touchend',e=>{ const dx=e.changedTouches[0].clientX-tx; if(Math.abs(dx)>50) showLb(lbI+(dx<0?1:-1)); });
+
+/* ---------- salin nomor ---------- */
+async function copyText(t){
+  try{ if(navigator.clipboard&&window.isSecureContext){ await navigator.clipboard.writeText(t); return true; } }catch(e){}
+  const ta=document.createElement('textarea'); ta.value=t; ta.style.cssText='position:fixed;opacity:0;top:0'; document.body.appendChild(ta); ta.select();
+  let ok=false; try{ ok=document.execCommand('copy'); }catch(e){} ta.remove(); return ok;
+}
+$$('.copy-btn').forEach(b=>b.addEventListener('click',async()=>{
+  const ok=await copyText(b.dataset.copy);
+  toast(ok?b.dataset.toast:'Gagal menyalin. Silakan salin manual.');
+  if(ok){ b.classList.add('done'); setTimeout(()=>b.classList.remove('done'),1800); }
+}));
+
+/* ---------- RSVP & ucapan ---------- */
+const esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const wishesEl=$('#wishes');
+let wishes=[];
+function ago(ts){
+  const s=Math.max(0,(Date.now()-ts)/1000);
+  if(s<60) return 'Baru saja'; if(s<3600) return Math.floor(s/60)+' menit lalu';
+  if(s<86400) return Math.floor(s/3600)+' jam lalu'; if(s<2592000) return Math.floor(s/86400)+' hari lalu';
+  return new Date(ts).toLocaleDateString('id-ID',{day:'numeric',month:'long',year:'numeric'});
+}
+function renderWishes(){
+  const list=wishes.slice().sort((a,b)=>b.ts-a.ts);
+  $('#wishCount').textContent=list.length;
+  $('#stYes').textContent='Hadir: '+list.filter(w=>w.att==='Hadir').reduce((a,w)=>a+(+w.guests||1),0)+' tamu';
+  $('#stNo').textContent='Tidak Hadir: '+list.filter(w=>w.att!=='Hadir').length;
+  wishesEl.innerHTML=list.length?list.map(w=>`
+    <div class="wish">
+      <div class="wish-top"><b>${esc(w.name)}</b><span class="tag ${w.att==='Hadir'?'y':'n'}">${w.att==='Hadir'?'Hadir · '+esc(w.guests||1)+' tamu':'Tidak Hadir'}</span></div>
+      <p>${esc(w.msg)}</p><time>${esc(ago(w.ts))}</time>
+    </div>`).join(''):'<div class="empty">Belum ada ucapan. Jadilah yang pertama mengirimkan doa terbaik untuk Riani &amp; Rafly 💕</div>';
+}
+const readLocal=()=>{ try{ return JSON.parse(localStorage.getItem(CONFIG.storageKey)||'[]'); }catch(e){ return []; } };
+const writeLocal=l=>{ try{ localStorage.setItem(CONFIG.storageKey,JSON.stringify(l.slice(-300))); }catch(e){} };
+function mergeWishes(remote){
+  const map=new Map(); [...remote,...readLocal()].forEach(w=>map.set((w.ts||0)+'|'+w.name,w));
+  wishes=[...map.values()];
+}
+function loadWishes(){
+  wishes=readLocal(); renderWishes();
+  if(hasGAS){
+    google.script.run.withSuccessHandler(r=>{ if(Array.isArray(r)){ mergeWishes(r); renderWishes(); } }).withFailureHandler(()=>{}).getWishes();
+  } else if(CONFIG.endpoint){
+    fetch(CONFIG.endpoint+(CONFIG.endpoint.includes('?')?'&':'?')+'action=wishes').then(r=>r.json()).then(r=>{ if(Array.isArray(r)){ mergeWishes(r); renderWishes(); } }).catch(()=>{});
+  }
+}
+function sendRemote(d){
+  if(hasGAS) return new Promise((res,rej)=>google.script.run.withSuccessHandler(res).withFailureHandler(rej).saveRSVP(d));
+  if(CONFIG.endpoint) return fetch(CONFIG.endpoint,{method:'POST',mode:'no-cors',headers:{'Content-Type':'text/plain;charset=utf-8'},body:JSON.stringify(d)});
+  return Promise.resolve();
+}
+const form=$('#rsvpForm');
+form.addEventListener('submit',async e=>{
+  e.preventDefault();
+  const name=$('#inName').value.trim(), msg=$('#inMsg').value.trim();
+  $('#fName').classList.toggle('bad',!name); $('#fMsg').classList.toggle('bad',!msg);
+  if(!name||!msg) return;
+  const att=$('input[name=att]:checked').value;
+  const d={name,att,guests:att==='Hadir'?+$('#inGuests').value:0,msg,ts:Date.now()};
+  const btn=$('#submitBtn'); btn.disabled=true; btn.textContent='Mengirim…';
+  const l=readLocal(); l.push(d); writeLocal(l); wishes.push(d); renderWishes();
+  try{ await sendRemote(d); toast('Terima kasih! Ucapan Anda telah terkirim 💕'); }
+  catch(err){ toast('Ucapan tersimpan di perangkat ini (server tidak terjangkau).'); }
+  form.reset(); btn.disabled=false; btn.textContent='Kirim Ucapan';
+  wishesEl.scrollTop=0;
+});
+$('#inName').addEventListener('input',()=>$('#fName').classList.remove('bad'));
+$('#inMsg').addEventListener('input',()=>$('#fMsg').classList.remove('bad'));
+setInterval(()=>{ if(wishes.length) renderWishes(); },60000);
+
+/* ---------- alat bagikan (?bagikan=1) ---------- */
+let shareMode = new URLSearchParams(location.search).get('bagikan')==='1', gasWebAppUrl='';
+const shBase=$('#shBase'), shNames=$('#shNames'), shTpl=$('#shTpl'), shList=$('#shList');
+const SH_KEY='wedding_riani_rafly_base_url';
+function enterShareMode(prefillUrl){
+  shareMode=true;
+  document.body.classList.remove('locked');
+  $('#cover').style.display='none'; $('#app').style.display='none';
+  $('#musicBtn').style.display='none'; $('#petals').style.display='none';
+  $('#shareTool').classList.add('active');
+  const saved=localStorage.getItem(SH_KEY)||'';
+  const autoUrl=prefillUrl||gasWebAppUrl;
+  if(autoUrl) shBase.value=autoUrl;
+  else if(!shBase.value) shBase.value=saved||(hasGAS?'':location.origin+location.pathname);
+  renderShareList();
+}
+function renderShareList(){
+  const base=shBase.value.trim().replace(/[?&]bagikan=1/g,'').replace(/\?$/,'');
+  if(base && !base.startsWith('http://localhost')) try{ localStorage.setItem(SH_KEY,base); }catch(e){}
+  const names=shNames.value.split(/\r?\n/).map(s=>s.replace(/\s+/g,' ').trim()).filter(Boolean);
+  shList.innerHTML=names.map((n,idx)=>{
+    const link=(base||'https://URL_WEBAPP_ANDA/exec')+'?to='+encodeURIComponent(n).replace(/%20/g,'+');
+    const msg=shTpl.value.replace(/\{NAMA\}/g,n).replace(/\{LINK\}/g,link);
+    const wa='https://api.whatsapp.com/send?text='+encodeURIComponent(msg);
+    return `<div class="share-item">
+      <h4>${esc(n)}</h4>
+      <div class="share-url">${esc(link)}</div>
+      <div class="share-acts">
+        <a class="wa" href="${wa}" target="_blank" rel="noopener">Kirim WhatsApp</a>
+        <button type="button" data-sc="${idx}" data-kind="link">Salin Link</button>
+        <button type="button" data-sc="${idx}" data-kind="msg">Salin Pesan</button>
+        <a href="${esc(link)}" target="_blank" rel="noopener">Pratinjau</a>
+      </div>
+    </div>`;
+  }).join('');
+  shList.dataset.items=JSON.stringify(names.map(n=>{
+    const link=(base||'https://URL_WEBAPP_ANDA/exec')+'?to='+encodeURIComponent(n).replace(/%20/g,'+');
+    return {link,msg:shTpl.value.replace(/\{NAMA\}/g,n).replace(/\{LINK\}/g,link)};
+  }));
+}
+[shBase,shNames,shTpl].forEach(el=>el.addEventListener('input',renderShareList));
+shList.addEventListener('click',async e=>{
+  const b=e.target.closest('button[data-sc]'); if(!b) return;
+  const arr=JSON.parse(shList.dataset.items||'[]'), item=arr[+b.dataset.sc]; if(!item) return;
+  const ok=await copyText(b.dataset.kind==='link'?item.link:item.msg);
+  toast(ok?(b.dataset.kind==='link'?'Link undangan disalin!':'Pesan WhatsApp disalin!'):'Gagal menyalin.');
+});
+
+/* ---------- init ---------- */
+function init(){
+  if(shareMode){ enterShareMode(''); return; }
+  audioLoading=false; loadAllPhotos(); setupAudio(); loadWishes();
+}
+if(hasGAS){
+  audioLoading=true;
+  if(google.script.url && google.script.url.getLocation){
+    google.script.url.getLocation(loc=>{
+      if(loc && loc.parameter && loc.parameter.bagikan==='1') enterShareMode('');
+    });
+  }
+  loadWishes();
+  google.script.run.withSuccessHandler(a=>{
+    if(a && a.webAppUrl) gasWebAppUrl=a.webAppUrl;
+    if(shareMode){ enterShareMode(gasWebAppUrl); return; }
+    if(a && a.images) Object.keys(a.images).forEach(k=>extraSrc[k]=a.images[k]);
+    if(a && a.audio) extraSrc.audio=a.audio;
+    loadAllPhotos();
+    if(a && a.audioChunks){ loadGasAudio(a.audioChunks, a.audioMime); }
+    else { audioLoading=false; setupAudio(); }
+  }).withFailureHandler(init).getAssets();
+} else init();
+
+})();
+</script>
+</body>
+</html>
