@@ -400,6 +400,7 @@ section{position:relative}
 .atm:hover{transform:perspective(700px) rotateX(4deg) rotateY(-5deg) translateY(-4px)}
 .atm.bank{background:linear-gradient(135deg,#A2CFFE 0%,#D6EAF8 42%,#F5C6D6 100%)}
 .atm.dana{background:linear-gradient(135deg,#F5C6D6 0%,#FADADD 40%,#B8D8F8 100%)}
+.atm.dana.alt{background:linear-gradient(135deg,#B8D8F8 0%,#D6EAF8 45%,#FADADD 100%)}
 .atm::before,.atm::after{content:"";position:absolute;border-radius:50%;pointer-events:none}
 .atm::before{width:210px;height:210px;right:-70px;top:-90px;background:radial-gradient(circle,rgba(255,255,255,.7),transparent 70%)}
 .atm::after{width:230px;height:230px;left:-90px;bottom:-130px;background:radial-gradient(circle,rgba(255,255,255,.55),transparent 70%)}
@@ -1126,7 +1127,7 @@ section{position:relative}
         <h3>Akad Nikah</h3>
         <div class="erow"><svg viewBox="0 0 24 24"><rect x="3.5" y="5" width="17" height="15" rx="3"/><path d="M8 3v4M16 3v4M3.5 10h17"/></svg><div><small>Hari / Tanggal</small><p><strong>Minggu, 22 Agustus 2027</strong></p></div></div>
         <div class="erow"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="8.5"/><path d="M12 7.5V12l3 2"/></svg><div><small>Waktu</small><p><strong>Pukul 08.00 WIB</strong></p></div></div>
-        <div class="erow"><svg viewBox="0 0 24 24"><path d="M12 21s-7-6.2-7-11.5a7 7 0 0 1 14 0C19 14.800 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg><div><small>Tempat</small><p><strong>Kediaman Rumah Riani</strong><br>Dusun 2, RT 001 RW 005, Desa Karangtengah, Kecamatan Karangsembung, Kabupaten Cirebon</p></div></div>
+        <div class="erow"><svg viewBox="0 0 24 24"><path d="M12 21s-7-6.2-7-11.5a7 7 0 0 1 14 0C19 14.800 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg><div><small>Tempat</small><p><strong>Kediaman mempelai Wanita</strong><br>Dusun 2, RT 001 RW 005, Desa Karangtengah, Kecamatan Karangsembung, Kabupaten Cirebon</p></div></div>
       </article>
 
       <article class="ecard reveal d1">
@@ -1134,7 +1135,7 @@ section{position:relative}
         <h3>Resepsi</h3>
         <div class="erow"><svg viewBox="0 0 24 24"><rect x="3.5" y="5" width="17" height="15" rx="3"/><path d="M8 3v4M16 3v4M3.5 10h17"/></svg><div><small>Hari / Tanggal</small><p><strong>Minggu, 22 Agustus 2027</strong></p></div></div>
         <div class="erow"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="8.5"/><path d="M12 7.5V12l3 2"/></svg><div><small>Waktu</small><p><strong>Pukul 09.00 WIB s/d Selesai</strong></p></div></div>
-        <div class="erow"><svg viewBox="0 0 24 24"><path d="M12 21s-7-6.2-7-11.5a7 7 0 0 1 14 0C19 14.800 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg><div><small>Tempat</small><p><strong>Kediaman Rumah Riani</strong><br>Dusun 2, RT 001 RW 005, Desa Karangtengah, Kecamatan Karangsembung, Kabupaten Cirebon</p></div></div>
+        <div class="erow"><svg viewBox="0 0 24 24"><path d="M12 21s-7-6.2-7-11.5a7 7 0 0 1 14 0C19 14.800 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg><div><small>Tempat</small><p><strong>Kediaman mempelai Wanita</strong><br>Dusun 2, RT 001 RW 005, Desa Karangtengah, Kecamatan Karangsembung, Kabupaten Cirebon</p></div></div>
       </article>
     </div>
 
@@ -1213,6 +1214,22 @@ section{position:relative}
           <span>Salin Nomor DANA</span>
         </button>
       </div>
+
+      <div class="atm-wrap reveal d2">
+        <div class="atm dana alt">
+          <div class="atm-top"><div class="brand dn">DANA</div><div class="atm-type">E-Wallet</div></div>
+          <div class="chip-row">
+            <svg class="chip" viewBox="0 0 42 32"><rect width="42" height="32" rx="6" fill="url(#gGold)" stroke="#fff" stroke-opacity=".7"/><path d="M0 11h42M0 21h42M15 0v32M27 0v32" stroke="#fff" stroke-opacity=".55" fill="none"/><rect x="15" y="11" width="12" height="10" rx="2" fill="none" stroke="#fff" stroke-opacity=".7"/></svg>
+            <svg class="nfc" viewBox="0 0 24 24"><path d="M7 8c2.500 2.500 2.500 5.500 0 8M11 5.500c4 3.500 4 9.500 0 13M15 3c5.500 4.500 5.500 13.500 0 18"/></svg>
+          </div>
+          <div class="num" id="numDanaRiani">0821 2903 4899</div>
+          <div class="holder"><small>Atas Nama</small><b>Siti Riani</b></div>
+        </div>
+        <button class="copy-btn" type="button" data-copy="082129034899" data-toast="Nomor DANA Siti Riani berhasil disalin!">
+          <svg viewBox="0 0 24 24"><rect x="8.500" y="8.500" width="12" height="12" rx="2.500"/><path d="M15.500 8.500V6A2.500 2.500 0 0 0 13 3.500H6A2.500 2.500 0 0 0 3.500 6v7A2.500 2.500 0 0 0 6 15.500h2.500"/></svg>
+          <span>Salin Nomor DANA</span>
+        </button>
+      </div>
     </div>
   </section>
 
@@ -1285,7 +1302,7 @@ Tanpa mengurangi rasa hormat, kami mengundang Anda untuk menghadiri dan memberik
 
 *Siti Riani &amp; Muhamad Rafly Kristiadi*
 📅 Minggu, 22 Agustus 2027
-📍 Kediaman Rumah Riani (Desa Karangtengah, Kec. Karangsembung, Kab. Cirebon)
+📍 Kediaman mempelai Wanita (Desa Karangtengah, Kec. Karangsembung, Kab. Cirebon)
 
 Buka undangan digital &amp; konfirmasi kehadiran:
 👉 {LINK}
@@ -1327,7 +1344,7 @@ const CONFIG = {
   audio: { id: '1YdkRxbq2cqj02zKHdMCqDaUFgQvpfkfx', path: 'wedding_Riani&Rafly/music/romantis.mp3' },
   weddingDate: '2027-08-22T08:00:00+07:00',
   // Opsional (hosting statis + Google Sheets): isi dengan URL Web App Apps Script (…/exec)
-  endpoint: 'https://script.google.com/macros/s/AKfycbypdc2HNNkwTe7XbHKoDo60eXrmd1Mo4VL9RE2OF6wbC62jiHDNRlogbf-OhRepX4Pt/exec',
+  endpoint: 'https://script.google.com/macros/s/AKfycbz0506b-sfUPYlktRT8f33MYRHyaP4ERWHrp4YzoBpQGN-8uJ25cknp64JxeGVuxe5B/exec',
   storageKey: 'wedding_riani_rafly_rsvp_v1'
 };
 
